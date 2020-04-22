@@ -1,2424 +1,3107 @@
-{
-	"Patch_to_Num": {
-		"msgdata.bin": "0",
-		"scrdata.bin": "1",
-		"gwscrdata.bin": "2",
-		"tuscrdata.bin": "3",
-		"btlscrdata.bin": "4",
-		"fixed_data.bin": "6",
-		"fixed_flow.bin": "7",
-		"fixed_growthdata.bin": "9",
-		"fixed_stagedata.bin": "10",
-		"fixed_classdata.bin": "11",
-		"fixed_persondata.bin": "12",
-		"fixed_act_data.bin": "13",
-		"fixed_skill.bin": "15",
-		"fixed_gimmick.bin": "16",
-		"fixed_spotdata.bin": "17",
-		"fixed_warpdata.bin": "18",
-		"fixed_areadata.bin": "19",
-		"fixed_castle_regon_data.bin": "20",
-		"fixed_stageenvinfo.bin": "21",
-		"fixed_scenario.bin": "22",
-		"fixed_freescenariodata.bin": "23",
-		"fixed_lobby_common.bin": "24",
-		"fixed_lobby_quest.bin": "25",
-		"fixed_lobby_activity.bin": "26",
-		"fixed_groupworkdata.bin": "27",
-		"fixed_presentdata.bin": "28",
-		"fixed_questiondata.bin": "29",
-		"fixed_shopdata.bin": "30",
-		"fixed_materialdata.bin": "31",
-		"fixed_cut_in.bin": "32",
-		"fixed_onlinedata.bin": "34",
-		"fixed_calendardata.bin": "35",
-		"fixed_tutorial.bin": "36",
-		"fixed_gallery.bin": "38",
-		"person_monitor0.bin": "39",
-		"person_monitor1.bin": "40",
-		"person_monitor2.bin": "41",
-		"person_monitor3.bin": "42",
-		"TacticsCharge.bin": "43",
-		"TacticsChargeKnight.bin": "44",
-		"TacticsChargeArmour.bin": "45",
-		"TacticsChargeFlying.bin": "46",
-		"TacticsArrow.bin": "47",
-		"TacticsArrowFlying.bin": "50",
-		"TacticsMagic.bin": "59",
-		"TacticsTo_Ally.bin": "61",
-		"TacticsMagic_Support.bin": "62",
-		"KBCamera.bin": "64",
-		"Credit.bin": "68",
-		"font00_JPN.g1t.gz": "71",
-		"font02_CHN.g1t.gz": "73",
-		"UTF8TBL_JPN.bin": "76",
-		"UTF8TBL_CHN.bin": "79",
-		"UTF8TBL_CNF.bin": "82",
-		"SC00_09.bai": "101",
-		"SC00_09.bsi": "102",
-		"SC00_10.bai": "103",
-		"SC00_10.bsi": "104",
-		"SC00_11.bai": "105",
-		"SC00_11.bsi": "106",
-		"SC01_01.bai": "111",
-		"SC01_01.bsi": "112",
-		"SC01_02.bai": "113",
-		"SC01_02.bsi": "114",
-		"SC01_03.bai": "115",
-		"SC01_03.bsi": "116",
-		"SC01_04.bai": "117",
-		"SC01_04.bsi": "118",
-		"SC01_09.bai": "127",
-		"SC01_09.bsi": "128",
-		"SC01_11.bai": "131",
-		"SC01_11.bsi": "132",
-		"SC02_02.bai": "149",
-		"SC02_02.bsi": "150",
-		"SC02_03.bai": "151",
-		"SC02_03.bsi": "152",
-		"SC02_04.bsi": "154",
-		"SC02_05.bsi": "156",
-		"SC02_06.bai": "157",
-		"SC02_06.bsi": "158",
-		"SC03_07.bai": "173",
-		"SC03_07.bsi": "174",
-		"SC03_10.bsi": "180",
-		"SC03_15.bai": "189",
-		"SC03_15.bsi": "190",
-		"SC03_19.bai": "197",
-		"SC04_00.bsi": "206",
-		"SC04_01.bsi": "208",
-		"SC04_02.bsi": "210",
-		"SC04_03.bsi": "212",
-		"SC04_04.bsi": "214",
-		"SC04_05.bsi": "216",
-		"SC04_06.bsi": "218",
-		"SC04_07.bsi": "220",
-		"SC04_08.bsi": "222",
-		"SC04_09.bsi": "224",
-		"SC04_10.bsi": "226",
-		"SC04_11.bsi": "228",
-		"SC04_12.bsi": "230",
-		"SC04_13.bsi": "232",
-		"SC04_14.bsi": "234",
-		"SC04_15.bsi": "236",
-		"SC04_16.bsi": "238",
-		"SC04_17.bsi": "240",
-		"SC04_18.bsi": "242",
-		"SC04_19.bsi": "244",
-		"LO00_00_00.bsi": "256",
-		"LO00_05.bsi": "266",
-		"LO00_09.bsi": "274",
-		"LO02_03.bsi": "286",
-		"LO02_05.bai": "289",
-		"LO02_05.bsi": "290",
-		"LO04_04.bai": "315",
-		"LO07_00.bai": "347",
-		"LO07_00.bsi": "348",
-		"LO07_01.bai": "349",
-		"LO07_01.bsi": "350",
-		"LO07_03.bai": "353",
-		"LO07_03.bsi": "354",
-		"LO07_04.bai": "355",
-		"LO07_04.bsi": "356",
-		"LO08_00.bsi": "360",
-		"LO08_01.bai": "361",
-		"LO08_01.bsi": "362",
-		"OL.spkg": "440",
-		"OL_C.spkg": "441",
-		"PBB_AIra3hNWtd.spkg": "456",
-		"PBB_AIra3hN.spkg": "466",
-		"PBB_Ira3.spkg": "481",
-		"PBB_CIra3.spkg": "482",
-		"S032-Info.bin.gz": "590",
-		"S060-Info.bin.gz": "618",
-		"S061-Info.bin.gz": "619",
-		"S010-ObjInfo.bin.gz": "789",
-		"S020-ObjInfo.bin.gz": "799",
-		"S031-Terrain.bin.gz": "2422",
-		"S018-CollisionInfo.bin.gz": "2924",
-		"StageGimmickMotion.bin.gz": "3112",
-		"MC002_EdelgardA_0_P_Body.bin.gz": "3122",
-		"MC006_FerdinandA_0_P_Body.bin.gz": "3130",
-		"MC024_HildaB_0_P_Body.bin.gz": "3167",
-		"MC025_LeonieA_0_P_Body.bin.gz": "3168",
-		"MC030_GilbertA_0_P_Body.bin.gz": "3174",
-		"MC032_CatherineA_0_P_Body.bin.gz": "3176",
-		"MC049_JeritzaA_PC_0_P_Body.bin.gz": "3230",
-		"MC042_DeathKnightA_PC_0_P_Body.bin.gz": "3231",
-		"MC048_AnnaA_PC_0_P_Body.bin.gz": "3232",
-		"MC100_UlysseA_0_P_Body.bin.gz": "3233",
-		"MC100_UlysseB_0_P_Body.bin.gz": "3234",
-		"MC101_BalthasarA_0_P_Body.bin.gz": "3235",
-		"MC101_BalthasarB_0_P_Body.bin.gz": "3236",
-		"MC102_ConstanzeA_0_P_Body.bin.gz": "3237",
-		"MC102_ConstanzeB_0_P_Body.bin.gz": "3238",
-		"MC103_HapyA_0_P_Body.bin.gz": "3239",
-		"MC103_HapyB_0_P_Body.bin.gz": "3240",
-		"MU006_LoadM_0_P_Body.bin.gz": "3258",
-		"MU011_BrigandM_0_P_Body.bin.gz": "3268",
-		"MU013_GladiatorM_0_P_Body.bin.gz": "3272",
-		"MU017_BraveM_0_P_Body.bin.gz": "3278",
-		"MU018_SwordMasterF_0_P_Body.bin.gz": "3280",
-		"MU019_AssassinM_0_P_Body.bin.gz": "3281",
-		"MU019_AssassinF_0_P_Body.bin.gz": "3282",
-		"MU020_FortressM_0_P_Body.bin.gz": "3283",
-		"MU024_WarriorM_0_P_Body.bin.gz": "3290",
-		"MU024_WarriorF_0_P_Body.bin.gz": "3291",
-		"MU025_SniperM_0_P_Body.bin.gz": "3292",
-		"MU026_GrapplerM_0_P_Body.bin.gz": "3294",
-		"MU027_WarlockM_0_P_Body.bin.gz": "3295",
-		"MU027_WarlockF_0_P_Body.bin.gz": "3296",
-		"MU034_BowKnightM_0_P_Body.bin.gz": "3307",
-		"MU042_DancerF_0_P_Body.bin.gz": "3319",
-		"MU042_DancerM_0_P_Body.bin.gz": "3323",
-		"MO007_MobM_0_P_Body.bin.gz": "3467",
-		"MO011_MobM_0_P_Body.bin.gz": "3471",
-		"MO013_MobM_0_P_Body.bin.gz": "3473",
-		"MC022_LysitheaA_0_P_Face.bin.gz": "3662",
-		"MC022_LysitheaB_0_P_Face.bin.gz": "3663",
-		"MC024_HildaB_0_P_Face.bin.gz": "3667",
-		"MC025_LeonieA_0_P_Face.bin.gz": "3668",
-		"MC049_JeritzaA_PC_0_P_Face.bin.gz": "3681",
-		"MC049_JeritzaA_PC_0_P_AwakeFace.bin.gz": "3682",
-		"MC048_AnnaA_PC_0_P_Face.bin.gz": "3683",
-		"MC100_UlysseA_0_P_Face.bin.gz": "3684",
-		"MC100_UlysseB_0_P_Face.bin.gz": "3685",
-		"MC101_BalthasarA_0_P_Face.bin.gz": "3686",
-		"MC101_BalthasarB_0_P_Face.bin.gz": "3687",
-		"MC102_ConstanzeA_0_P_Face00.bin.gz": "3688",
-		"MC102_ConstanzeB_0_P_Face00.bin.gz": "3689",
-		"MO000_FaceM00_0_P_Face.bin.gz": "3690",
-		"MO002_FaceM02_0_P_Face.bin.gz": "3692",
-		"MO004_FaceM04_0_P_Face.bin.gz": "3694",
-		"MO005_FaceM05_0_P_Face.bin.gz": "3695",
-		"MO009_FaceF09_0_P_Face.bin.gz": "3699",
-		"MO010_FaceF10_0_P_Face.bin.gz": "3700",
-		"MO011_FaceF11_0_P_Face.bin.gz": "3701",
-		"MC103_HapyA_0_P_Face.bin.gz": "3718",
-		"MC103_HapyB_0_P_Face.bin.gz": "3719",
-		"MO028_FaceM28_0_P_Face.bin.gz": "3723",
-		"MW100_Knuckle010_0.bin.gz": "3838",
-		"MT011_Sweets_0.bin.gz": "3949",
-		"KB_M18_0.bin.gz": "4271",
-		"KB_L_100_PACK.bin": "4622",
-		"KB_L_200_PACK.bin": "4623",
-		"KB_L_300_PACK.bin": "4624",
-		"KB_L_500_PACK.bin": "4625",
-		"KB_L_600_PACK.bin": "4626",
-		"KB_L_300_R_PACK.bin": "4628",
-		"KB_L_500_R_PACK.bin": "4629",
-		"KB_L_600_R_PACK.bin": "4630",
-		"BC_PACK.bin": "4632",
-		"fix.bin.gz": "5913",
-		"100_bmap.bin": "5916",
-		"200_magic.bin": "5917",
-		"600_title.bin": "5920",
-		"EffS004.bin": "5926",
-		"EffS100.bin": "6022",
-		"200_title.g1t.gz": "6038",
-		"200_title_ENG_U.g1t.gz": "6039",
-		"200_title_ENG_E.g1t.gz": "6040",
-		"200_title_GER.g1t.gz": "6041",
-		"200_title_FRA_E.g1t.gz": "6042",
-		"200_title_FRA_U.g1t.gz": "6043",
-		"200_title_ESP_E.g1t.gz": "6044",
-		"200_title_ESP_U.g1t.gz": "6045",
-		"200_title_ITA.g1t.gz": "6046",
-		"200_title_KOR.g1t.gz": "6047",
-		"200_title_TWN.g1t.gz": "6048",
-		"200_title_CHN.g1t.gz": "6049",
-		"400_abbey.g1t.gz": "6062",
-		"400_abbey_ENG_U.g1t.gz": "6063",
-		"400_abbey_ENG_E.g1t.gz": "6064",
-		"400_abbey_GER.g1t.gz": "6065",
-		"400_abbey_FRA_E.g1t.gz": "6066",
-		"400_abbey_FRA_U.g1t.gz": "6067",
-		"400_abbey_ESP_E.g1t.gz": "6068",
-		"400_abbey_ESP_U.g1t.gz": "6069",
-		"400_abbey_ITA.g1t.gz": "6070",
-		"400_abbey_KOR.g1t.gz": "6071",
-		"400_abbey_TWN.g1t.gz": "6072",
-		"400_abbey_CHN.g1t.gz": "6073",
-		"401_abbey_minimap.g1t.gz": "6074",
-		"minimap.bin": "6122",
-		"still_castle.bin": "6143",
-		"still_event.bin": "6145",
-		"IN_GeneralCameraInfo.bin": "6159",
-		"IN_FixedCameraInfo.bin": "6162",
-		"IN_EventBaseInfo.bin": "6163",
-		"IN_CubeStageBaseInfo.bin": "6164",
-		"IN_CubeStageChangeInfo.bin": "6165",
-		"TALK_EV00_007.bin": "6348",
-		"TALK_EV00_041.bin": "6382",
-		"TALK_EV00_102.bin": "6443",
-		"TALK_EV00_143.bin": "6484",
-		"TALK_EV01_055.bin": "6538",
-		"TALK_EV01_070.bin": "6553",
-		"TALK_EV01_082.bin": "6565",
-		"TALK_EV03_008.bin": "6629",
-		"TALK_EV03_038.bin": "6659",
-		"TALK_SE00_009_30.bin": "6722",
-		"TALK_SE00_022_20.bin": "6786",
-		"TEXT_TALK_EV00_143.bin": "7583",
-		"TEXT_TALK_EV01_049.bin": "7631",
-		"TEXT_TALK_EV01_055.bin": "7637",
-		"TEXT_TALK_SE00_022_20.bin": "7885",
-		"TEXT_TALK_SE01_010_10.bin": "7970",
-		"TEXT_TALK_SE01_143_00.bin": "8355",
-		"SC01_04_V.bin": "8556",
-		"SC02_02_V.bin": "8572",
-		"SC02_05_V.bin": "8575",
-		"SC05_00_V.bin": "8620",
-		"SC05_01_V.bin": "8621",
-		"SC05_02_V.bin": "8622",
-		"SC05_03_V.bin": "8623",
-		"SC05_04_V.bin": "8624",
-		"SC05_05_V.bin": "8625",
-		"SC05_06_V.bin": "8626",
-		"SC05_07_V.bin": "8627",
-		"SC05_08_V.bin": "8628",
-		"SC05_11_V.bin": "8631",
-		"SC01_04_S.bin": "8658",
-		"SC02_02_S.bin": "8674",
-		"SC02_05_S.bin": "8677",
-		"SC05_00_S.bin": "8722",
-		"SC05_01_S.bin": "8723",
-		"SC05_02_S.bin": "8724",
-		"SC05_03_S.bin": "8725",
-		"SC05_04_S.bin": "8726",
-		"SC05_05_S.bin": "8727",
-		"SC05_06_S.bin": "8728",
-		"SC05_07_S.bin": "8729",
-		"SC05_08_S.bin": "8730",
-		"SC05_11_S.bin": "8733",
-		"SC00_11_B.bin": "8754",
-		"SC00_12_B.bin": "8755",
-		"SC01_02_B.bin": "8758",
-		"SC01_03_B.bin": "8759",
-		"SC01_04_B.bin": "8760",
-		"SC01_08_B.bin": "8764",
-		"SC01_11_B.bin": "8767",
-		"SC02_01_B.bin": "8775",
-		"SC02_02_B.bin": "8776",
-		"SC02_04_B.bin": "8778",
-		"SC02_05_B.bin": "8779",
-		"SC05_00_B.bin": "8824",
-		"SC05_01_B.bin": "8825",
-		"SC05_02_B.bin": "8826",
-		"SC05_03_B.bin": "8827",
-		"SC05_04_B.bin": "8828",
-		"SC05_05_B.bin": "8829",
-		"SC05_06_B.bin": "8830",
-		"SC05_07_B.bin": "8831",
-		"SC05_08_B.bin": "8832",
-		"SC05_11_B.bin": "8835",
-		"SC00_11_B.dat": "8856",
-		"SC00_12_B.dat": "8857",
-		"SC01_02_B.dat": "8860",
-		"SC01_03_B.dat": "8861",
-		"SC01_08_B.dat": "8866",
-		"SC01_11_B.dat": "8869",
-		"SC02_00_B.dat": "8876",
-		"SC02_01_B.dat": "8877",
-		"SC02_02_B.dat": "8878",
-		"SC02_04_B.dat": "8880",
-		"SC02_05_B.dat": "8881",
-		"SC05_00_B.dat": "8926",
-		"SC05_01_B.dat": "8927",
-		"SC05_02_B.dat": "8928",
-		"SC05_03_B.dat": "8929",
-		"SC05_04_B.dat": "8930",
-		"SC05_05_B.dat": "8931",
-		"SC05_06_B.dat": "8932",
-		"SC05_07_B.dat": "8933",
-		"SC05_08_B.dat": "8934",
-		"SC05_11_B.dat": "8937",
-		"LO00_09_VMes_str.bin": "8956",
-		"LO02_03_VMes_str.bin": "8962",
-		"LO02_05_VMes_str.bin": "8964",
-		"LO03_07_VMes_str.bin": "8972",
-		"LO08_00_VMes_str.bin": "9027",
-		"LO08_00_VMes_str.bin": "9047",
-		"LO00_11_VMes_param.dat": "9062",
-		"LO00_12_VMes_param.dat": "9063",
-		"LO02_03_VMes_param.dat": "9066",
-		"LO02_05_VMes_param.dat": "9068",
-		"LO02_03_AMes_str.bin": "9170",
-		"LO02_03_AMes_param.dat": "9274",
-		"LO00_06_SMes_str.bin": "9369",
-		"TEXT_TALK_EV00_099.bin": "9652",
-		"TEXT_TALK_EV00_102.bin": "9655",
-		"TEXT_TALK_EV00_143.bin": "9696",
-		"TEXT_TALK_EV01_018.bin": "9714",
-		"TEXT_TALK_EV01_055.bin": "9750",
-		"TEXT_TALK_EV01_082.bin": "9777",
-		"TEXT_TALK_EV03_013.bin": "9846",
-		"TEXT_TALK_EV03_043.bin": "9876",
-		"TEXT_TALK_SE00_009_10.bin": "9932",
-		"TEXT_TALK_SE00_14_00.bin": "9956",
-		"TEXT_TALK_SE00_017_40.bin": "9975",
-		"TEXT_TALK_SE00_022_20.bin": "9998",
-		"TEXT_TALK_SE00_026_10.bin": "10017",
-		"TEXT_TALK_SE00_028_00.bin": "10025",
-		"TEXT_TALK_SE00_028_10.bin": "10026",
-		"TEXT_TALK_SE01_005_10.bin": "10069",
-		"TEXT_TALK_SE01_012_00.bin": "10088",
-		"TEXT_TALK_SE01_016_00.bin": "10098",
-		"TEXT_TALK_SE01_026_00.bin": "10132",
-		"TEXT_TALK_SE01_065_10.bin": "10251",
-		"TEXT_TALK_SE01_095_00.bin": "10341",
-		"TEXT_TALK_SE01_097_00.bin": "10346",
-		"TEXT_TALK_SE01_109_20.bin": "10382",
-		"TEXT_TALK_SE01_117_21.bin": "10406",
-		"TEXT_TALK_SE01_143_20.bin": "10471",
-		"TEXT_TALK_SE01_184_20.bin": "10595",
-		"SC01_13_V.bin": "10678",
-		"SC02_05_V.bin": "10688",
-		"SC05_00_V.bin": "10733",
-		"SC05_01_V.bin": "10734",
-		"SC05_02_V.bin": "10735",
-		"SC05_03_V.bin": "10736",
-		"SC05_04_V.bin": "10737",
-		"SC05_05_V.bin": "10738",
-		"SC05_06_V.bin": "10739",
-		"SC05_07_V.bin": "10740",
-		"SC05_08_V.bin": "10741",
-		"SC05_11_V.bin": "10744",
-		"SC02_02_S_ENG_U.bin": "10787",
-		"SC05_00_S_ENG_U.bin": "10835",
-		"SC05_01_S_ENG_U.bin": "10836",
-		"SC05_02_S_ENG_U.bin": "10837",
-		"SC05_03_S_ENG_U.bin": "10838",
-		"SC05_04_S_ENG_U.bin": "10839",
-		"SC05_05_S_ENG_U.bin": "10840",
-		"SC05_06_S_ENG_U.bin": "10841",
-		"SC05_07_S_ENG_U.bin": "10842",
-		"SC05_08_S_ENG_U.bin": "10843",
-		"SC05_11_S_ENG_U.bin": "10846",
-		"SC00_11_B.bin": "10867",
-		"SC00_12_B.bin": "10868",
-		"SC01_02_B.bin": "10871",
-		"SC01_03_B.bin": "10872",
-		"SC01_04_B.bin": "10873",
-		"SC01_08_B.bin": "10877",
-		"SC01_11_B.bin": "10880",
-		"SC02_01_B.bin": "10888",
-		"SC02_02_B.bin": "10889",
-		"SC02_04_B.bin": "10891",
-		"SC02_05_B.bin": "10892",
-		"SC05_00_B.bin": "10937",
-		"SC05_01_B.bin": "10938",
-		"SC05_02_B.bin": "10939",
-		"SC05_03_B.bin": "10940",
-		"SC05_04_B.bin": "10941",
-		"SC05_05_B.bin": "10942",
-		"SC05_06_B.bin": "10943",
-		"SC05_07_B.bin": "10944",
-		"SC05_08_B.bin": "10945",
-		"SC05_11_B.bin": "10948",
-		"LO00_01_VMes_str.bin": "10959",
-		"LO00_05_VMes_str.bin": "10963",
-		"LO00_11_VMes_str.bin": "10969",
-		"LO02_03_VMes_str.bin": "10973",
-		"LO03_07_VMes_str.bin": "10983",
-		"LO04_08_VMes_str.bin": "10992",
-		"LO05_08_VMes_str.bin": "11000",
-		"LO02_03_AMes_str.bin": "11077",
-		"LO00_06_SMes_str.bin": "11172",
-		"TEXT_TALK_EV00_099.bin": "11455",
-		"TEXT_TALK_EV00_102.bin": "11458",
-		"TEXT_TALK_EV00_143.bin": "11499",
-		"TEXT_TALK_EV01_018.bin": "11517",
-		"TEXT_TALK_EV01_055.bin": "11553",
-		"TEXT_TALK_EV01_082.bin": "11580",
-		"TEXT_TALK_EV03_013.bin": "11649",
-		"TEXT_TALK_EV03_043.bin": "11679",
-		"TEXT_TALK_SE00_009_10.bin": "11735",
-		"TEXT_TALK_SE00_14_00.bin": "11759",
-		"TEXT_TALK_SE00_017_40.bin": "11778",
-		"TEXT_TALK_SE00_022_20.bin": "11801",
-		"TEXT_TALK_SE00_026_10.bin": "11820",
-		"TEXT_TALK_SE00_028_00.bin": "11828",
-		"TEXT_TALK_SE00_028_10.bin": "11829",
-		"TEXT_TALK_SE01_005_10.bin": "11872",
-		"TEXT_TALK_SE01_012_00.bin": "11891",
-		"TEXT_TALK_SE01_016_00.bin": "11901",
-		"TEXT_TALK_SE01_026_00.bin": "11935",
-		"TEXT_TALK_SE01_065_10.bin": "12054",
-		"TEXT_TALK_SE01_095_00.bin": "12144",
-		"TEXT_TALK_SE01_097_00.bin": "12149",
-		"TEXT_TALK_SE01_109_20.bin": "12185",
-		"TEXT_TALK_SE01_117_21.bin": "12209",
-		"TEXT_TALK_SE01_143_20.bin": "12274",
-		"TEXT_TALK_SE01_184_20.bin": "12398",
-		"SC01_13_V.bin": "12481",
-		"SC02_05_V.bin": "12491",
-		"SC05_00_V.bin": "12536",
-		"SC05_01_V.bin": "12537",
-		"SC05_02_V.bin": "12538",
-		"SC05_03_V.bin": "12539",
-		"SC05_04_V.bin": "12540",
-		"SC05_05_V.bin": "12541",
-		"SC05_06_V.bin": "12542",
-		"SC05_07_V.bin": "12543",
-		"SC05_08_V.bin": "12544",
-		"SC05_11_V.bin": "12547",
-		"SC02_02_S_ENG_E.bin": "12590",
-		"SC05_00_S_ENG_E.bin": "12638",
-		"SC05_01_S_ENG_E.bin": "12639",
-		"SC05_02_S_ENG_E.bin": "12640",
-		"SC05_03_S_ENG_E.bin": "12641",
-		"SC05_04_S_ENG_E.bin": "12642",
-		"SC05_05_S_ENG_E.bin": "12643",
-		"SC05_06_S_ENG_E.bin": "12644",
-		"SC05_07_S_ENG_E.bin": "12645",
-		"SC05_08_S_ENG_E.bin": "12646",
-		"SC05_11_S_ENG_E.bin": "12649",
-		"SC00_11_B.bin": "12670",
-		"SC00_12_B.bin": "12671",
-		"SC01_02_B.bin": "12674",
-		"SC01_03_B.bin": "12675",
-		"SC01_04_B.bin": "12676",
-		"SC01_08_B.bin": "12680",
-		"SC01_11_B.bin": "12683",
-		"SC02_01_B.bin": "12691",
-		"SC02_02_B.bin": "12692",
-		"SC02_04_B.bin": "12694",
-		"SC02_05_B.bin": "12695",
-		"SC05_00_B.bin": "12740",
-		"SC05_01_B.bin": "12741",
-		"SC05_02_B.bin": "12742",
-		"SC05_03_B.bin": "12743",
-		"SC05_04_B.bin": "12744",
-		"SC05_05_B.bin": "12745",
-		"SC05_06_B.bin": "12746",
-		"SC05_07_B.bin": "12747",
-		"SC05_08_B.bin": "12748",
-		"SC05_11_B.bin": "12751",
-		"LO00_01_VMes_str.bin": "12762",
-		"LO00_05_VMes_str.bin": "12766",
-		"LO00_11_VMes_str.bin": "12772",
-		"LO02_03_VMes_str.bin": "12776",
-		"LO03_07_VMes_str.bin": "12786",
-		"LO04_08_VMes_str.bin": "12795",
-		"LO05_08_VMes_str.bin": "12803",
-		"LO02_03_AMes_str.bin": "12880",
-		"LO00_06_SMes_str.bin": "12975",
-		"TEXT_TALK_EV00_099.bin": "13258",
-		"TEXT_TALK_EV00_102.bin": "13261",
-		"TEXT_TALK_EV00_143.bin": "13302",
-		"TEXT_TALK_EV01_055.bin": "13356",
-		"TEXT_TALK_EV01_082.bin": "13383",
-		"TEXT_TALK_SE00_009_10.bin": "13538",
-		"TEXT_TALK_SE00_022_20.bin": "13604",
-		"TEXT_TALK_SE01_005_10.bin": "13675",
-		"TEXT_TALK_SE01_007_00.bin": "13680",
-		"TEXT_TALK_SE01_026_00.bin": "13738",
-		"TEXT_TALK_SE01_039_00.bin": "13779",
-		"TEXT_TALK_SE01_060_00.bin": "13840",
-		"TEXT_TALK_SE01_097_00.bin": "13952",
-		"TEXT_TALK_SE01_109_20.bin": "13988",
-		"TEXT_TALK_SE01_117_21.bin": "14012",
-		"TEXT_TALK_SE01_184_20.bin": "14201",
-		"SC02_05_V.bin": "14294",
-		"SC05_00_V.bin": "14339",
-		"SC05_01_V.bin": "14340",
-		"SC05_02_V.bin": "14341",
-		"SC05_03_V.bin": "14342",
-		"SC05_04_V.bin": "14343",
-		"SC05_05_V.bin": "14344",
-		"SC05_06_V.bin": "14345",
-		"SC05_07_V.bin": "14346",
-		"SC05_08_V.bin": "14347",
-		"SC05_11_V.bin": "14350",
-		"SC02_02_S_GER.bin": "14393",
-		"SC05_00_S_GER.bin": "14441",
-		"SC05_01_S_GER.bin": "14442",
-		"SC05_02_S_GER.bin": "14443",
-		"SC05_03_S_GER.bin": "14444",
-		"SC05_04_S_GER.bin": "14445",
-		"SC05_05_S_GER.bin": "14446",
-		"SC05_06_S_GER.bin": "14447",
-		"SC05_07_S_GER.bin": "14448",
-		"SC05_08_S_GER.bin": "14449",
-		"SC05_11_S_GER.bin": "14452",
-		"SC00_11_B.bin": "14473",
-		"SC00_12_B.bin": "14474",
-		"SC01_02_B.bin": "14477",
-		"SC01_03_B.bin": "14478",
-		"SC01_04_B.bin": "14479",
-		"SC01_08_B.bin": "14483",
-		"SC01_11_B.bin": "14486",
-		"SC02_01_B.bin": "14494",
-		"SC02_02_B.bin": "14495",
-		"SC02_04_B.bin": "14497",
-		"SC02_05_B.bin": "14498",
-		"SC05_00_B.bin": "14543",
-		"SC05_01_B.bin": "14544",
-		"SC05_02_B.bin": "14545",
-		"SC05_03_B.bin": "14546",
-		"SC05_04_B.bin": "14547",
-		"SC05_05_B.bin": "14548",
-		"SC05_06_B.bin": "14549",
-		"SC05_07_B.bin": "14550",
-		"SC05_08_B.bin": "14551",
-		"SC05_11_B.bin": "14554",
-		"LO00_01_VMes_str.bin": "14565",
-		"LO02_03_VMes_str.bin": "14579",
-		"LO03_07_VMes_str.bin": "14589",
-		"LO00_02_AMes_str.bin": "14670",
-		"LO02_03_AMes_str.bin": "14683",
-		"LO00_06_SMes_str.bin": "14778",
-		"TEXT_TALK_EV00_090.bin": "15052",
-		"TEXT_TALK_EV00_091.bin": "15053",
-		"TEXT_TALK_EV00_092.bin": "15054",
-		"TEXT_TALK_EV00_093.bin": "15055",
-		"TEXT_TALK_EV00_099.bin": "15061",
-		"TEXT_TALK_EV00_102.bin": "15064",
-		"TEXT_TALK_EV00_121.bin": "15083",
-		"TEXT_TALK_EV00_139.bin": "15101",
-		"TEXT_TALK_EV00_143.bin": "15105",
-		"TEXT_TALK_EV01_055.bin": "15159",
-		"TEXT_TALK_EV01_057.bin": "15161",
-		"TEXT_TALK_EV01_082.bin": "15186",
-		"TEXT_TALK_EV03_035.bin": "15277",
-		"TEXT_TALK_EV03_044.bin": "15286",
-		"TEXT_TALK_EV03_045.bin": "15287",
-		"TEXT_TALK_SE00_009_10.bin": "15341",
-		"TEXT_TALK_SE00_013_10.bin": "15361",
-		"TEXT_TALK_SE00_017_20.bin": "15382",
-		"TEXT_TALK_SE00_018_20.bin": "15387",
-		"TEXT_TALK_SE00_021_00.bin": "15400",
-		"TEXT_TALK_SE00_022_20.bin": "15407",
-		"TEXT_TALK_SE00_027_10.bin": "15430",
-		"TEXT_TALK_SE00_028_00.bin": "15434",
-		"TEXT_TALK_SE00_029_20.bin": "15440",
-		"TEXT_TALK_SE01_005_10.bin": "15478",
-		"TEXT_TALK_SE01_016_00.bin": "15507",
-		"TEXT_TALK_SE01_058_10.bin": "15638",
-		"TEXT_TALK_SE01_065_20.bin": "15661",
-		"TEXT_TALK_SE01_081_21.bin": "15710",
-		"TEXT_TALK_SE01_097_00.bin": "15755",
-		"TEXT_TALK_SE01_106_00.bin": "15780",
-		"TEXT_TALK_SE01_109_20.bin": "15791",
-		"TEXT_TALK_SE01_117_20.bin": "15814",
-		"TEXT_TALK_SE01_117_21.bin": "15815",
-		"TEXT_TALK_SE01_118_10.bin": "15817",
-		"TEXT_TALK_SE01_118_20.bin": "15818",
-		"TEXT_TALK_SE01_120_00.bin": "15822",
-		"TEXT_TALK_SE01_120_10.bin": "15823",
-		"TEXT_TALK_SE01_123_10.bin": "15831",
-		"TEXT_TALK_SE01_132_00.bin": "15851",
-		"TEXT_TALK_SE01_140_10.bin": "15872",
-		"TEXT_TALK_SE01_155_20.bin": "15920",
-		"TEXT_TALK_SE01_165_00.bin": "15949",
-		"TEXT_TALK_SE01_168_10.bin": "15960",
-		"TEXT_TALK_SE01_177_00.bin": "15982",
-		"TEXT_TALK_SE01_180_00.bin": "15990",
-		"TEXT_TALK_SE01_190_00.bin": "16019",
-		"SC02_05_V.bin": "16097",
-		"SC03_07_V.bin": "16106",
-		"SC03_11_V.bin": "16110",
-		"SC05_00_V.bin": "16142",
-		"SC05_01_V.bin": "16143",
-		"SC05_02_V.bin": "16144",
-		"SC05_03_V.bin": "16145",
-		"SC05_04_V.bin": "16146",
-		"SC05_05_V.bin": "16147",
-		"SC05_06_V.bin": "16148",
-		"SC05_07_V.bin": "16149",
-		"SC05_08_V.bin": "16150",
-		"SC05_11_V.bin": "16153",
-		"SC02_02_S_FRA_E.bin": "16196",
-		"SC05_00_S_FRA_E.bin": "16244",
-		"SC05_01_S_FRA_E.bin": "16245",
-		"SC05_02_S_FRA_E.bin": "16246",
-		"SC05_03_S_FRA_E.bin": "16247",
-		"SC05_04_S_FRA_E.bin": "16248",
-		"SC05_05_S_FRA_E.bin": "16249",
-		"SC05_06_S_FRA_E.bin": "16250",
-		"SC05_07_S_FRA_E.bin": "16251",
-		"SC05_08_S_FRA_E.bin": "16252",
-		"SC05_11_S_FRA_E.bin": "16255",
-		"SC00_11_B.bin": "16276",
-		"SC00_12_B.bin": "16277",
-		"SC01_02_B.bin": "16280",
-		"SC01_03_B.bin": "16281",
-		"SC01_04_B.bin": "16282",
-		"SC01_08_B.bin": "16286",
-		"SC01_11_B.bin": "16289",
-		"SC02_01_B.bin": "16297",
-		"SC02_02_B.bin": "16298",
-		"SC02_04_B.bin": "16300",
-		"SC02_05_B.bin": "16301",
-		"SC05_00_B.bin": "16346",
-		"SC05_01_B.bin": "16347",
-		"SC05_02_B.bin": "16348",
-		"SC05_03_B.bin": "16349",
-		"SC05_04_B.bin": "16350",
-		"SC05_05_B.bin": "16351",
-		"SC05_06_B.bin": "16352",
-		"SC05_07_B.bin": "16353",
-		"SC05_08_B.bin": "16354",
-		"SC05_11_B.bin": "16357",
-		"LO00_01_VMes_str.bin": "16368",
-		"LO00_04_VMes_str.bin": "16371",
-		"LO00_06_VMes_str.bin": "16373",
-		"LO00_07_VMes_str.bin": "16374",
-		"LO00_09_VMes_str.bin": "16376",
-		"LO00_10_VMes_str.bin": "16377",
-		"LO00_11_VMes_str.bin": "16378",
-		"LO02_03_VMes_str.bin": "16382",
-		"LO03_03_VMes_str.bin": "16388",
-		"LO03_07_VMes_str.bin": "16392",
-		"LO04_03_VMes_str.bin": "16396",
-		"LO02_03_AMes_str.bin": "16486",
-		"LO00_06_SMes_str.bin": "16581",
-		"TEXT_TALK_EV00_090.bin": "16855",
-		"TEXT_TALK_EV00_091.bin": "16856",
-		"TEXT_TALK_EV00_092.bin": "16857",
-		"TEXT_TALK_EV00_093.bin": "16858",
-		"TEXT_TALK_EV00_099.bin": "16864",
-		"TEXT_TALK_EV00_102.bin": "16867",
-		"TEXT_TALK_EV00_121.bin": "16886",
-		"TEXT_TALK_EV00_139.bin": "16904",
-		"TEXT_TALK_EV00_143.bin": "16908",
-		"TEXT_TALK_EV01_055.bin": "16962",
-		"TEXT_TALK_EV01_057.bin": "16964",
-		"TEXT_TALK_EV01_082.bin": "16989",
-		"TEXT_TALK_EV03_035.bin": "17080",
-		"TEXT_TALK_EV03_044.bin": "17089",
-		"TEXT_TALK_EV03_045.bin": "17090",
-		"TEXT_TALK_SE00_009_10.bin": "17144",
-		"TEXT_TALK_SE00_013_10.bin": "17164",
-		"TEXT_TALK_SE00_017_20.bin": "17185",
-		"TEXT_TALK_SE00_018_20.bin": "17190",
-		"TEXT_TALK_SE00_021_00.bin": "17203",
-		"TEXT_TALK_SE00_022_20.bin": "17210",
-		"TEXT_TALK_SE00_027_10.bin": "17233",
-		"TEXT_TALK_SE00_028_00.bin": "17237",
-		"TEXT_TALK_SE00_029_20.bin": "17243",
-		"TEXT_TALK_SE01_005_10.bin": "17281",
-		"TEXT_TALK_SE01_016_00.bin": "17310",
-		"TEXT_TALK_SE01_058_10.bin": "17441",
-		"TEXT_TALK_SE01_065_20.bin": "17464",
-		"TEXT_TALK_SE01_081_21.bin": "17513",
-		"TEXT_TALK_SE01_097_00.bin": "17558",
-		"TEXT_TALK_SE01_106_00.bin": "17583",
-		"TEXT_TALK_SE01_109_20.bin": "17594",
-		"TEXT_TALK_SE01_117_20.bin": "17617",
-		"TEXT_TALK_SE01_117_21.bin": "17618",
-		"TEXT_TALK_SE01_118_10.bin": "17620",
-		"TEXT_TALK_SE01_118_20.bin": "17621",
-		"TEXT_TALK_SE01_120_00.bin": "17625",
-		"TEXT_TALK_SE01_120_10.bin": "17626",
-		"TEXT_TALK_SE01_123_10.bin": "17634",
-		"TEXT_TALK_SE01_132_00.bin": "17654",
-		"TEXT_TALK_SE01_140_10.bin": "17675",
-		"TEXT_TALK_SE01_155_20.bin": "17723",
-		"TEXT_TALK_SE01_165_00.bin": "17752",
-		"TEXT_TALK_SE01_168_10.bin": "17763",
-		"TEXT_TALK_SE01_177_00.bin": "17785",
-		"TEXT_TALK_SE01_180_00.bin": "17793",
-		"TEXT_TALK_SE01_190_00.bin": "17822",
-		"SC02_05_V.bin": "17900",
-		"SC03_07_V.bin": "17909",
-		"SC03_11_V.bin": "17913",
-		"SC05_00_V.bin": "17945",
-		"SC05_01_V.bin": "17946",
-		"SC05_02_V.bin": "17947",
-		"SC05_03_V.bin": "17948",
-		"SC05_04_V.bin": "17949",
-		"SC05_05_V.bin": "17950",
-		"SC05_06_V.bin": "17951",
-		"SC05_07_V.bin": "17952",
-		"SC05_08_V.bin": "17953",
-		"SC05_11_V.bin": "17956",
-		"SC02_02_S_FRA_U.bin": "17999",
-		"SC05_00_S_FRA_U.bin": "18047",
-		"SC05_01_S_FRA_U.bin": "18048",
-		"SC05_02_S_FRA_U.bin": "18049",
-		"SC05_03_S_FRA_U.bin": "18050",
-		"SC05_04_S_FRA_U.bin": "18051",
-		"SC05_05_S_FRA_U.bin": "18052",
-		"SC05_06_S_FRA_U.bin": "18053",
-		"SC05_07_S_FRA_U.bin": "18054",
-		"SC05_08_S_FRA_U.bin": "18055",
-		"SC05_11_S_FRA_U.bin": "18058",
-		"SC00_11_B.bin": "18079",
-		"SC00_12_B.bin": "18080",
-		"SC01_02_B.bin": "18083",
-		"SC01_03_B.bin": "18084",
-		"SC01_04_B.bin": "18085",
-		"SC01_08_B.bin": "18089",
-		"SC01_11_B.bin": "18092",
-		"SC02_01_B.bin": "18100",
-		"SC02_02_B.bin": "18101",
-		"SC02_04_B.bin": "18103",
-		"SC02_05_B.bin": "18104",
-		"SC05_00_B.bin": "18149",
-		"SC05_01_B.bin": "18150",
-		"SC05_02_B.bin": "18151",
-		"SC05_03_B.bin": "18152",
-		"SC05_04_B.bin": "18153",
-		"SC05_05_B.bin": "18154",
-		"SC05_06_B.bin": "18155",
-		"SC05_07_B.bin": "18156",
-		"SC05_08_B.bin": "18157",
-		"SC05_11_B.bin": "18160",
-		"LO00_01_VMes_str.bin": "18171",
-		"LO00_04_VMes_str.bin": "18174",
-		"LO00_06_VMes_str.bin": "18176",
-		"LO00_07_VMes_str.bin": "18177",
-		"LO00_09_VMes_str.bin": "18179",
-		"LO00_10_VMes_str.bin": "18180",
-		"LO00_11_VMes_str.bin": "18181",
-		"LO02_03_VMes_str.bin": "18185",
-		"LO03_03_VMes_str.bin": "18191",
-		"LO03_07_VMes_str.bin": "18195",
-		"LO04_03_VMes_str.bin": "18199",
-		"LO02_03_AMes_str.bin": "18289",
-		"LO00_06_SMes_str.bin": "18384",
-		"TEXT_TALK_EV00_046.bin": "18614",
-		"TEXT_TALK_EV00_072.bin": "18640",
-		"TEXT_TALK_EV00_099.bin": "18667",
-		"TEXT_TALK_EV00_102.bin": "18670",
-		"TEXT_TALK_EV00_143.bin": "18711",
-		"TEXT_TALK_EV01_048.bin": "18758",
-		"TEXT_TALK_EV01_055.bin": "18765",
-		"TEXT_TALK_EV01_082.bin": "18792",
-		"TEXT_TALK_EV03_033.bin": "18881",
-		"TEXT_TALK_SE00_002_30.bin": "18913",
-		"TEXT_TALK_SE00_009_10.bin": "18947",
-		"TEXT_TALK_SE00_010_00.bin": "18951",
-		"TEXT_TALK_SE00_14_40.bin": "18975",
-		"TEXT_TALK_SE00_020_00.bin": "19001",
-		"TEXT_TALK_SE00_021_30.bin": "19009",
-		"TEXT_TALK_SE00_022_20.bin": "19013",
-		"TEXT_TALK_SE01_005_10.bin": "19084",
-		"TEXT_TALK_SE01_033_000.bin": "19168",
-		"TEXT_TALK_SE01_038_20.bin": "19186",
-		"TEXT_TALK_SE01_053_20.bin": "19229",
-		"TEXT_TALK_SE01_097_00.bin": "19361",
-		"TEXT_TALK_SE01_109_20.bin": "19397",
-		"TEXT_TALK_SE01_117_21.bin": "19421",
-		"TEXT_TALK_SE01_172_00.bin": "19575",
-		"TEXT_TALK_SE01_184_20.bin": "19610",
-		"TEXT_TALK_SE01_196_00.bin": "19641",
-		"TEXT_TALK_SE01_196_10.bin": "19642",
-		"SC02_05_V.bin": "19703",
-		"SC05_00_V.bin": "19748",
-		"SC05_01_V.bin": "19749",
-		"SC05_02_V.bin": "19750",
-		"SC05_03_V.bin": "19751",
-		"SC05_04_V.bin": "19752",
-		"SC05_05_V.bin": "19753",
-		"SC05_06_V.bin": "19754",
-		"SC05_07_V.bin": "19755",
-		"SC05_08_V.bin": "19756",
-		"SC05_11_V.bin": "19759",
-		"SC00_10_S_ESP_E.bin": "19779",
-		"SC02_02_S_ESP_E.bin": "19802",
-		"SC05_00_S_ESP_E.bin": "19850",
-		"SC05_01_S_ESP_E.bin": "19851",
-		"SC05_02_S_ESP_E.bin": "19852",
-		"SC05_03_S_ESP_E.bin": "19853",
-		"SC05_04_S_ESP_E.bin": "19854",
-		"SC05_05_S_ESP_E.bin": "19855",
-		"SC05_06_S_ESP_E.bin": "19856",
-		"SC05_07_S_ESP_E.bin": "19857",
-		"SC05_08_S_ESP_E.bin": "19858",
-		"SC05_11_S_ESP_E.bin": "19861",
-		"SC00_11_B.bin": "19882",
-		"SC00_12_B.bin": "19883",
-		"SC01_02_B.bin": "19886",
-		"SC01_03_B.bin": "19887",
-		"SC01_04_B.bin": "19888",
-		"SC01_08_B.bin": "19892",
-		"SC01_11_B.bin": "19895",
-		"SC02_01_B.bin": "19903",
-		"SC02_02_B.bin": "19904",
-		"SC02_04_B.bin": "19906",
-		"SC02_05_B.bin": "19907",
-		"SC05_00_B.bin": "19952",
-		"SC05_01_B.bin": "19953",
-		"SC05_02_B.bin": "19954",
-		"SC05_03_B.bin": "19955",
-		"SC05_04_B.bin": "19956",
-		"SC05_05_B.bin": "19957",
-		"SC05_06_B.bin": "19958",
-		"SC05_07_B.bin": "19959",
-		"SC05_08_B.bin": "19960",
-		"SC05_11_B.bin": "19963",
-		"LO00_04_VMes_str.bin": "19977",
-		"LO00_11_VMes_str.bin": "19984",
-		"LO02_03_VMes_str.bin": "19988",
-		"LO03_07_VMes_str.bin": "19998",
-		"LO02_03_AMes_str.bin": "20092",
-		"LO00_06_SMes_str.bin": "20187",
-		"TEXT_TALK_EV00_018.bin": "20389",
-		"TEXT_TALK_EV00_072.bin": "20443",
-		"TEXT_TALK_EV00_099.bin": "20470",
-		"TEXT_TALK_EV00_102.bin": "20473",
-		"TEXT_TALK_EV00_143.bin": "20514",
-		"TEXT_TALK_EV01_048.bin": "20561",
-		"TEXT_TALK_EV01_055.bin": "20568",
-		"TEXT_TALK_EV01_082.bin": "20595",
-		"TEXT_TALK_EV03_033.bin": "20684",
-		"TEXT_TALK_SE00_002_30.bin": "20716",
-		"TEXT_TALK_SE00_009_10.bin": "20750",
-		"TEXT_TALK_SE00_010_00.bin": "20754",
-		"TEXT_TALK_SE00_14_40.bin": "20778",
-		"TEXT_TALK_SE00_020_00.bin": "20804",
-		"TEXT_TALK_SE00_021_30.bin": "20812",
-		"TEXT_TALK_SE00_022_20.bin": "20816",
-		"TEXT_TALK_SE01_005_10.bin": "20887",
-		"TEXT_TALK_SE01_033_000.bin": "20971",
-		"TEXT_TALK_SE01_038_20.bin": "20989",
-		"TEXT_TALK_SE01_053_20.bin": "21032",
-		"TEXT_TALK_SE01_097_00.bin": "21164",
-		"TEXT_TALK_SE01_109_20.bin": "21200",
-		"TEXT_TALK_SE01_110_00.bin": "21202",
-		"TEXT_TALK_SE01_117_21.bin": "21224",
-		"TEXT_TALK_SE01_172_00.bin": "21378",
-		"TEXT_TALK_SE01_177_10.bin": "21392",
-		"TEXT_TALK_SE01_184_00.bin": "21411",
-		"TEXT_TALK_SE01_184_20.bin": "21413",
-		"TEXT_TALK_SE01_196_00.bin": "21444",
-		"TEXT_TALK_SE01_196_10.bin": "21445",
-		"SC02_05_V.bin": "21506",
-		"SC05_00_V.bin": "21551",
-		"SC05_01_V.bin": "21552",
-		"SC05_02_V.bin": "21553",
-		"SC05_03_V.bin": "21554",
-		"SC05_04_V.bin": "21555",
-		"SC05_05_V.bin": "21556",
-		"SC05_06_V.bin": "21557",
-		"SC05_07_V.bin": "21558",
-		"SC05_08_V.bin": "21559",
-		"SC05_11_V.bin": "21562",
-		"SC00_10_S_ESP_U.bin": "21582",
-		"SC02_02_S_ESP_U.bin": "21605",
-		"SC05_00_S_ESP_U.bin": "21653",
-		"SC05_01_S_ESP_U.bin": "21654",
-		"SC05_02_S_ESP_U.bin": "21655",
-		"SC05_03_S_ESP_U.bin": "21656",
-		"SC05_04_S_ESP_U.bin": "21657",
-		"SC05_05_S_ESP_U.bin": "21658",
-		"SC05_06_S_ESP_U.bin": "21659",
-		"SC05_07_S_ESP_U.bin": "21660",
-		"SC05_08_S_ESP_U.bin": "21661",
-		"SC05_11_S_ESP_U.bin": "21664",
-		"SC00_11_B.bin": "21685",
-		"SC00_12_B.bin": "21686",
-		"SC01_02_B.bin": "21689",
-		"SC01_03_B.bin": "21690",
-		"SC01_04_B.bin": "21691",
-		"SC01_08_B.bin": "21695",
-		"SC01_11_B.bin": "21698",
-		"SC02_01_B.bin": "21706",
-		"SC02_02_B.bin": "21707",
-		"SC02_04_B.bin": "21709",
-		"SC02_05_B.bin": "21710",
-		"SC05_00_B.bin": "21755",
-		"SC05_01_B.bin": "21756",
-		"SC05_02_B.bin": "21757",
-		"SC05_03_B.bin": "21758",
-		"SC05_04_B.bin": "21759",
-		"SC05_05_B.bin": "21760",
-		"SC05_06_B.bin": "21761",
-		"SC05_07_B.bin": "21762",
-		"SC05_08_B.bin": "21763",
-		"SC05_11_B.bin": "21766",
-		"LO00_04_VMes_str.bin": "21780",
-		"LO00_11_VMes_str.bin": "21787",
-		"LO02_03_VMes_str.bin": "21791",
-		"LO03_03_VMes_str.bin": "21797",
-		"LO03_07_VMes_str.bin": "21801",
-		"LO05_03_VMes_str.bin": "21813",
-		"LO02_03_AMes_str.bin": "21895",
-		"LO00_06_SMes_str.bin": "21990",
-		"TEXT_TALK_EV00_099.bin": "22273",
-		"TEXT_TALK_EV00_102.bin": "22276",
-		"TEXT_TALK_EV00_143.bin": "22317",
-		"TEXT_TALK_EV01_055.bin": "22371",
-		"TEXT_TALK_EV01_082.bin": "22398",
-		"TEXT_TALK_SE00_009_10.bin": "22553",
-		"TEXT_TALK_SE00_022_20.bin": "22619",
-		"TEXT_TALK_SE01_005_10.bin": "22690",
-		"TEXT_TALK_SE01_026_00.bin": "22753",
-		"TEXT_TALK_SE01_097_00.bin": "22967",
-		"TEXT_TALK_SE01_109_20.bin": "23003",
-		"TEXT_TALK_SE01_117_21.bin": "23027",
-		"TEXT_TALK_SE01_184_20.bin": "23216",
-		"SC02_05_V.bin": "23309",
-		"SC05_00_V.bin": "23354",
-		"SC05_01_V.bin": "23355",
-		"SC05_02_V.bin": "23356",
-		"SC05_03_V.bin": "23357",
-		"SC05_04_V.bin": "23358",
-		"SC05_05_V.bin": "23359",
-		"SC05_06_V.bin": "23360",
-		"SC05_07_V.bin": "23361",
-		"SC05_08_V.bin": "23362",
-		"SC05_11_V.bin": "23365",
-		"SC00_07_S_ITA.bin": "23382",
-		"SC02_02_S_ITA.bin": "23408",
-		"SC05_00_S_ITA.bin": "23456",
-		"SC05_01_S_ITA.bin": "23457",
-		"SC05_02_S_ITA.bin": "23458",
-		"SC05_03_S_ITA.bin": "23459",
-		"SC05_04_S_ITA.bin": "23460",
-		"SC05_05_S_ITA.bin": "23461",
-		"SC05_06_S_ITA.bin": "23462",
-		"SC05_07_S_ITA.bin": "23463",
-		"SC05_08_S_ITA.bin": "23464",
-		"SC05_11_S_ITA.bin": "23467",
-		"SC00_11_B.bin": "23488",
-		"SC00_12_B.bin": "23489",
-		"SC01_02_B.bin": "23492",
-		"SC01_03_B.bin": "23493",
-		"SC01_04_B.bin": "23494",
-		"SC01_08_B.bin": "23498",
-		"SC01_11_B.bin": "23501",
-		"SC02_01_B.bin": "23509",
-		"SC02_02_B.bin": "23510",
-		"SC02_04_B.bin": "23512",
-		"SC02_05_B.bin": "23513",
-		"SC05_00_B.bin": "23558",
-		"SC05_01_B.bin": "23559",
-		"SC05_02_B.bin": "23560",
-		"SC05_03_B.bin": "23561",
-		"SC05_04_B.bin": "23562",
-		"SC05_05_B.bin": "23563",
-		"SC05_06_B.bin": "23564",
-		"SC05_07_B.bin": "23565",
-		"SC05_08_B.bin": "23566",
-		"SC05_11_B.bin": "23569",
-		"LO00_01_VMes_str.bin": "23580",
-		"LO00_02_VMes_str.bin": "23581",
-		"LO00_11_VMes_str.bin": "23590",
-		"LO02_03_VMes_str.bin": "23594",
-		"LO03_07_VMes_str.bin": "23604",
-		"LO02_03_AMes_str.bin": "23698",
-		"LO00_06_SMes_str.bin": "23793",
-		"TEXT_TALK_EV00_108.bin": "24085",
-		"TEXT_TALK_EV00_143.bin": "24120",
-		"TEXT_TALK_EV01_003.bin": "24123",
-		"TEXT_TALK_EV01_055.bin": "24174",
-		"TEXT_TALK_EV01_064.bin": "24183",
-		"TEXT_TALK_EV01_093.bin": "24212",
-		"TEXT_TALK_EV02_007.bin": "24228",
-		"TEXT_TALK_EV02_017.bin": "24238",
-		"TEXT_TALK_EV02_021.bin": "24242",
-		"TEXT_TALK_EV02_023.bin": "24244",
-		"TEXT_TALK_EV03_029.bin": "24286",
-		"TEXT_TALK_SE00_007_20.bin": "24347",
-		"TEXT_TALK_SE00_022_20.bin": "24422",
-		"TEXT_TALK_SE00_027_10.bin": "24445",
-		"TEXT_TALK_SE01_002_20.bin": "24484",
-		"TEXT_TALK_SE01_013_10.bin": "24516",
-		"TEXT_TALK_SE01_015_10.bin": "24521",
-		"TEXT_TALK_SE01_085_10.bin": "24736",
-		"TEXT_TALK_SE01_087_10.bin": "24743",
-		"TEXT_TALK_SE01_099_10.bin": "24776",
-		"TEXT_TALK_SE01_110_10.bin": "24809",
-		"TEXT_TALK_SE01_116_10.bin": "24825",
-		"TEXT_TALK_SE01_117_10.bin": "24828",
-		"TEXT_TALK_SE01_125_10.bin": "24851",
-		"TEXT_TALK_SE01_137_10.bin": "24880",
-		"TEXT_TALK_SE01_144_21.bin": "24899",
-		"TEXT_TALK_SE01_145_00.bin": "24900",
-		"TEXT_TALK_SE01_165_10.bin": "24965",
-		"SC00_08_V.bin": "25084",
-		"SC03_17_V.bin": "25131",
-		"SC05_00_V.bin": "25157",
-		"SC05_01_V.bin": "25158",
-		"SC05_02_V.bin": "25159",
-		"SC05_03_V.bin": "25160",
-		"SC05_04_V.bin": "25161",
-		"SC05_05_V.bin": "25162",
-		"SC05_06_V.bin": "25163",
-		"SC05_07_V.bin": "25164",
-		"SC05_08_V.bin": "25165",
-		"SC05_11_V.bin": "25168",
-		"SC05_00_S_KOR.bin": "25259",
-		"SC05_01_S_KOR.bin": "25260",
-		"SC05_02_S_KOR.bin": "25261",
-		"SC05_03_S_KOR.bin": "25262",
-		"SC05_04_S_KOR.bin": "25263",
-		"SC05_05_S_KOR.bin": "25264",
-		"SC05_06_S_KOR.bin": "25265",
-		"SC05_07_S_KOR.bin": "25266",
-		"SC05_08_S_KOR.bin": "25267",
-		"SC05_11_S_KOR.bin": "25270",
-		"SC00_11_B.bin": "25291",
-		"SC00_12_B.bin": "25292",
-		"SC01_02_B.bin": "25295",
-		"SC01_03_B.bin": "25296",
-		"SC01_04_B.bin": "25297",
-		"SC01_08_B.bin": "25301",
-		"SC01_11_B.bin": "25304",
-		"SC02_01_B.bin": "25312",
-		"SC02_02_B.bin": "25313",
-		"SC02_04_B.bin": "25315",
-		"SC02_05_B.bin": "25316",
-		"SC05_00_B.bin": "25361",
-		"SC05_01_B.bin": "25362",
-		"SC05_02_B.bin": "25363",
-		"SC05_03_B.bin": "25364",
-		"SC05_04_B.bin": "25365",
-		"SC05_05_B.bin": "25366",
-		"SC05_06_B.bin": "25367",
-		"SC05_07_B.bin": "25368",
-		"SC05_08_B.bin": "25369",
-		"SC05_11_B.bin": "25372",
-		"LO00_02_VMes_str.bin": "25384",
-		"LO00_03_VMes_str.bin": "25385",
-		"LO00_07_VMes_str.bin": "25389",
-		"LO00_10_VMes_str.bin": "25392",
-		"LO00_12_VMes_str.bin": "25394",
-		"LO02_03_VMes_str.bin": "25397",
-		"LO03_07_VMes_str.bin": "25407",
-		"LO04_05_VMes_str.bin": "25413",
-		"LO04_06_VMes_str.bin": "25414",
-		"LO00_03_AMes_str.bin": "25489",
-		"LO00_07_AMes_str.bin": "25493",
-		"LO02_03_AMes_str.bin": "25501",
-		"LO04_05_AMes_str.bin": "25517",
-		"LO00_06_SMes_str.bin": "25596",
-		"TEXT_TALK_EV00_143.bin": "25923",
-		"TEXT_TALK_EV01_055.bin": "25977",
-		"TEXT_TALK_SE00_022_20.bin": "26225",
-		"SC05_00_V.bin": "26960",
-		"SC05_01_V.bin": "26961",
-		"SC05_02_V.bin": "26962",
-		"SC05_03_V.bin": "26963",
-		"SC05_04_V.bin": "26964",
-		"SC05_05_V.bin": "26965",
-		"SC05_06_V.bin": "26966",
-		"SC05_07_V.bin": "26967",
-		"SC05_08_V.bin": "26968",
-		"SC05_11_V.bin": "26971",
-		"SC02_02_S_TWN.bin": "27014",
-		"SC05_00_S_TWN.bin": "27062",
-		"SC05_01_S_TWN.bin": "27063",
-		"SC05_02_S_TWN.bin": "27064",
-		"SC05_03_S_TWN.bin": "27065",
-		"SC05_04_S_TWN.bin": "27066",
-		"SC05_05_S_TWN.bin": "27067",
-		"SC05_06_S_TWN.bin": "27068",
-		"SC05_07_S_TWN.bin": "27069",
-		"SC05_08_S_TWN.bin": "27070",
-		"SC05_11_S_TWN.bin": "27073",
-		"SC00_11_B.bin": "27094",
-		"SC00_12_B.bin": "27095",
-		"SC01_02_B.bin": "27098",
-		"SC01_03_B.bin": "27099",
-		"SC01_04_B.bin": "27100",
-		"SC01_08_B.bin": "27104",
-		"SC01_11_B.bin": "27107",
-		"SC02_01_B.bin": "27115",
-		"SC02_02_B.bin": "27116",
-		"SC02_04_B.bin": "27118",
-		"SC02_05_B.bin": "27119",
-		"SC05_00_B.bin": "27164",
-		"SC05_01_B.bin": "27165",
-		"SC05_02_B.bin": "27166",
-		"SC05_03_B.bin": "27167",
-		"SC05_04_B.bin": "27168",
-		"SC05_05_B.bin": "27169",
-		"SC05_06_B.bin": "27170",
-		"SC05_07_B.bin": "27171",
-		"SC05_08_B.bin": "27172",
-		"SC05_11_B.bin": "27175",
-		"LO02_03_VMes_str.bin": "27200",
-		"LO03_07_VMes_str.bin": "27210",
-		"LO02_03_AMes_str.bin": "27304",
-		"LO00_06_SMes_str.bin": "27399",
-		"TEXT_TALK_EV00_143.bin": "27726",
-		"TEXT_TALK_EV01_055.bin": "27780",
-		"TEXT_TALK_SE00_022_20.bin": "28028",
-		"SC05_00_V.bin": "28763",
-		"SC05_01_V.bin": "28764",
-		"SC05_02_V.bin": "28765",
-		"SC05_03_V.bin": "28766",
-		"SC05_04_V.bin": "28767",
-		"SC05_05_V.bin": "28768",
-		"SC05_06_V.bin": "28769",
-		"SC05_07_V.bin": "28770",
-		"SC05_08_V.bin": "28771",
-		"SC05_11_V.bin": "28774",
-		"SC02_02_S_CHN.bin": "28817",
-		"SC05_00_S_CHN.bin": "28865",
-		"SC05_01_S_CHN.bin": "28866",
-		"SC05_02_S_CHN.bin": "28867",
-		"SC05_03_S_CHN.bin": "28868",
-		"SC05_04_S_CHN.bin": "28869",
-		"SC05_05_S_CHN.bin": "28870",
-		"SC05_06_S_CHN.bin": "28871",
-		"SC05_07_S_CHN.bin": "28872",
-		"SC05_08_S_CHN.bin": "28873",
-		"SC05_11_S_CHN.bin": "28876",
-		"SC00_11_B.bin": "28897",
-		"SC00_12_B.bin": "28898",
-		"SC01_02_B.bin": "28901",
-		"SC01_03_B.bin": "28902",
-		"SC01_04_B.bin": "28903",
-		"SC01_08_B.bin": "28907",
-		"SC01_11_B.bin": "28910",
-		"SC02_01_B.bin": "28918",
-		"SC02_02_B.bin": "28919",
-		"SC02_04_B.bin": "28921",
-		"SC02_05_B.bin": "28922",
-		"SC05_00_B.bin": "28967",
-		"SC05_01_B.bin": "28968",
-		"SC05_02_B.bin": "28969",
-		"SC05_03_B.bin": "28970",
-		"SC05_04_B.bin": "28971",
-		"SC05_05_B.bin": "28972",
-		"SC05_06_B.bin": "28973",
-		"SC05_07_B.bin": "28974",
-		"SC05_08_B.bin": "28975",
-		"SC05_11_B.bin": "28978",
-		"LO02_03_VMes_str.bin": "29003",
-		"LO03_07_VMes_str.bin": "29013",
-		"LO02_03_AMes_str.bin": "29107",
-		"LO00_06_SMes_str.bin": "29202",
-		"MV_N_011_FRA_E_VJ.bin": "29491",
-		"MV_N_011_FRA_E_VE.bin": "29509",
-		"MV_N_011_FRA_U_VJ.bin": "29527",
-		"MV_N_011_FRA_U_VE.bin": "29545",
-		"MV01_03_FRA_E_VJ.bin": "30097",
-		"MV02_02_FRA_E_VJ.bin": "30105",
-		"MV01_03_FRA_E_VE.bin": "30128",
-		"MV02_02_FRA_E_VE.bin": "30136",
-		"MV01_03_FRA_U_VJ.bin": "30159",
-		"MV02_02_FRA_U_VJ.bin": "30167",
-		"MV01_03_FRA_U_VE.bin": "30190",
-		"MV02_02_FRA_U_VE.bin": "30198",
-		"title_cursor_move.arc": "30798",
-		"GlobalConfig.ktsl2gcbin.gz": "30828",
-		"AV_009_001.ktsl2asbin.gz": "30946",
-		"MOV_EN.ktsl2asbin.gz": "31000",
-		"EV_EN_ext.ktsl2asbin.gz": "31001",
-		"SE_EN_ext.ktsl2asbin.gz": "31002",
-		"LO_EN_ext.ktsl2asbin.gz": "31004",
-		"SC_EN_ext.ktsl2asbin.gz": "31005",
-		"SV_EN_ext.ktsl2asbin.gz": "31006",
-		"AV_000_000_EN.ktsl2asbin.gz": "31010",
-		"AV_000_001_EN.ktsl2asbin.gz": "31097"		
-	},
-	"Num_to_Patch": {
-		"0": "msgdata.bin",
-		"1": "scrdata.bin",
-		"2": "gwscrdata.bin",
-		"3": "tuscrdata.bin",
-		"4": "btlscrdata.bin",
-		"6": "fixed_data.bin",
-		"7": "fixed_flow.bin",
-		"9": "fixed_growthdata.bin",
-		"10": "fixed_stagedata.bin",
-		"11": "fixed_classdata.bin",
-		"12": "fixed_persondata.bin",
-		"13": "fixed_act_data.bin",
-		"15": "fixed_skill.bin",
-		"16": "fixed_gimmick.bin",
-		"17": "fixed_spotdata.bin",
-		"18": "fixed_warpdata.bin",
-		"19": "fixed_areadata.bin",
-		"20": "fixed_castle_regon_data.bin",
-		"21": "fixed_stageenvinfo.bin",
-		"22": "fixed_scenario.bin",
-		"23": "fixed_freescenariodata.bin",
-		"24": "fixed_lobby_common.bin",
-		"25": "fixed_lobby_quest.bin",
-		"26": "fixed_lobby_activity.bin",
-		"27": "fixed_groupworkdata.bin",
-		"28": "fixed_presentdata.bin",
-		"29": "fixed_questiondata.bin",
-		"30": "fixed_shopdata.bin",
-		"31": "fixed_materialdata.bin",
-		"32": "fixed_cut_in.bin",
-		"34": "fixed_onlinedata.bin",
-		"35": "fixed_calendardata.bin",
-		"36": "fixed_tutorial.bin",
-		"38": "fixed_gallery.bin",
-		"39": "person_monitor0.bin",
-		"40": "person_monitor1.bin",
-		"41": "person_monitor2.bin",
-		"42": "person_monitor3.bin",
-		"43": "TacticsCharge.bin",
-		"44": "TacticsChargeKnight.bin",
-		"45": "TacticsChargeArmour.bin",
-		"46": "TacticsChargeFlying.bin",
-		"47": "TacticsArrow.bin",
-		"50": "TacticsArrowFlying.bin",
-		"59": "TacticsMagic.bin",
-		"61": "TacticsTo_Ally.bin",
-		"62": "TacticsMagic_Support.bin",
-		"64": "KBCamera.bin",
-		"68": "Credit.bin",
-		"71": "font00_JPN.g1t.gz",
-		"73": "font02_CHN.g1t.gz",
-		"76": "UTF8TBL_JPN.bin",
-		"79": "UTF8TBL_CHN.bin",
-		"82": "UTF8TBL_CNF.bin",
-		"101": "SC00_09.bai",
-		"102": "SC00_09.bsi",
-		"103": "SC00_10.bai",
-		"104": "SC00_10.bsi",
-		"105": "SC00_11.bai",
-		"106": "SC00_11.bsi",
-		"111": "SC01_01.bai",
-		"112": "SC01_01.bsi",
-		"113": "SC01_02.bai",
-		"114": "SC01_02.bsi",
-		"115": "SC01_03.bai",
-		"116": "SC01_03.bsi",
-		"117": "SC01_04.bai",
-		"118": "SC01_04.bsi",
-		"127": "SC01_09.bai",
-		"128": "SC01_09.bsi",
-		"131": "SC01_11.bai",
-		"132": "SC01_11.bsi",
-		"149": "SC02_02.bai",
-		"150": "SC02_02.bsi",
-		"151": "SC02_03.bai",
-		"152": "SC02_03.bsi",
-		"154": "SC02_04.bsi",
-		"156": "SC02_05.bsi",
-		"157": "SC02_06.bai",
-		"158": "SC02_06.bsi",
-		"173": "SC03_07.bai",
-		"174": "SC03_07.bsi",
-		"180": "SC03_10.bsi",
-		"189": "SC03_15.bai",
-		"190": "SC03_15.bsi",
-		"197": "SC03_19.bai",
-		"206": "SC04_00.bsi",
-		"208": "SC04_01.bsi",
-		"210": "SC04_02.bsi",
-		"212": "SC04_03.bsi",
-		"214": "SC04_04.bsi",
-		"216": "SC04_05.bsi",
-		"218": "SC04_06.bsi",
-		"220": "SC04_07.bsi",
-		"222": "SC04_08.bsi",
-		"224": "SC04_09.bsi",
-		"226": "SC04_10.bsi",
-		"228": "SC04_11.bsi",
-		"230": "SC04_12.bsi",
-		"232": "SC04_13.bsi",
-		"234": "SC04_14.bsi",
-		"236": "SC04_15.bsi",
-		"238": "SC04_16.bsi",
-		"240": "SC04_17.bsi",
-		"242": "SC04_18.bsi",
-		"244": "SC04_19.bsi",
-		"256": "LO00_00_00.bsi",
-		"266": "LO00_05.bsi",
-		"274": "LO00_09.bsi",
-		"286": "LO02_03.bsi",
-		"289": "LO02_05.bai",
-		"290": "LO02_05.bsi",
-		"315": "LO04_04.bai",
-		"347": "LO07_00.bai",
-		"348": "LO07_00.bsi",
-		"349": "LO07_01.bai",
-		"350": "LO07_01.bsi",
-		"353": "LO07_03.bai",
-		"354": "LO07_03.bsi",
-		"355": "LO07_04.bai",
-		"356": "LO07_04.bsi",
-		"360": "LO08_00.bsi",
-		"361": "LO08_01.bai",
-		"362": "LO08_01.bsi",
-		"440": "OL.spkg",
-		"441": "OL_C.spkg",
-		"456": "PBB_AIra3hNWtd.spkg",
-		"466": "PBB_AIra3hN.spkg",
-		"481": "PBB_Ira3.spkg",
-		"482": "PBB_CIra3.spkg",
-		"590": "S032-Info.bin.gz",
-		"618": "S060-Info.bin.gz",
-		"619": "S061-Info.bin.gz",
-		"789": "S010-ObjInfo.bin.gz",
-		"799": "S020-ObjInfo.bin.gz",
-		"2422": "S031-Terrain.bin.gz",
-		"2924": "S018-CollisionInfo.bin.gz",
-		"3112": "StageGimmickMotion.bin.gz",
-		"3122": "MC002_EdelgardA_0_P_Body.bin.gz",
-		"3130": "MC006_FerdinandA_0_P_Body.bin.gz",
-		"3167": "MC024_HildaB_0_P_Body.bin.gz",
-		"3168": "MC025_LeonieA_0_P_Body.bin.gz",
-		"3174": "MC030_GilbertA_0_P_Body.bin.gz",
-		"3176": "MC032_CatherineA_0_P_Body.bin.gz",
-		"3230": "MC049_JeritzaA_PC_0_P_Body.bin.gz",
-		"3231": "MC042_DeathKnightA_PC_0_P_Body.bin.gz",
-		"3232": "MC048_AnnaA_PC_0_P_Body.bin.gz",
-		"3233": "MC100_UlysseA_0_P_Body.bin.gz",
-		"3234": "MC100_UlysseB_0_P_Body.bin.gz",
-		"3235": "MC101_BalthasarA_0_P_Body.bin.gz",
-		"3236": "MC101_BalthasarB_0_P_Body.bin.gz",
-		"3237": "MC102_ConstanzeA_0_P_Body.bin.gz",
-		"3238": "MC102_ConstanzeB_0_P_Body.bin.gz",
-		"3239": "MC103_HapyA_0_P_Body.bin.gz",
-		"3240": "MC103_HapyB_0_P_Body.bin.gz",
-		"3258": "MU006_LoadM_0_P_Body.bin.gz",
-		"3268": "MU011_BrigandM_0_P_Body.bin.gz",
-		"3272": "MU013_GladiatorM_0_P_Body.bin.gz",
-		"3278": "MU017_BraveM_0_P_Body.bin.gz",
-		"3280": "MU018_SwordMasterF_0_P_Body.bin.gz",
-		"3281": "MU019_AssassinM_0_P_Body.bin.gz",
-		"3282": "MU019_AssassinF_0_P_Body.bin.gz",
-		"3283": "MU020_FortressM_0_P_Body.bin.gz",
-		"3290": "MU024_WarriorM_0_P_Body.bin.gz",
-		"3291": "MU024_WarriorF_0_P_Body.bin.gz",
-		"3292": "MU025_SniperM_0_P_Body.bin.gz",
-		"3294": "MU026_GrapplerM_0_P_Body.bin.gz",
-		"3295": "MU027_WarlockM_0_P_Body.bin.gz",
-		"3296": "MU027_WarlockF_0_P_Body.bin.gz",
-		"3307": "MU034_BowKnightM_0_P_Body.bin.gz",
-		"3319": "MU042_DancerF_0_P_Body.bin.gz",
-		"3323": "MU042_DancerM_0_P_Body.bin.gz",
-		"3467": "MO007_MobM_0_P_Body.bin.gz",
-		"3471": "MO011_MobM_0_P_Body.bin.gz",
-		"3473": "MO013_MobM_0_P_Body.bin.gz",
-		"3662": "MC022_LysitheaA_0_P_Face.bin.gz",
-		"3663": "MC022_LysitheaB_0_P_Face.bin.gz",
-		"3667": "MC024_HildaB_0_P_Face.bin.gz",
-		"3668": "MC025_LeonieA_0_P_Face.bin.gz",
-		"3681": "MC049_JeritzaA_PC_0_P_Face.bin.gz",
-		"3682": "MC049_JeritzaA_PC_0_P_AwakeFace.bin.gz",
-		"3683": "MC048_AnnaA_PC_0_P_Face.bin.gz",
-		"3684": "MC100_UlysseA_0_P_Face.bin.gz",
-		"3685": "MC100_UlysseB_0_P_Face.bin.gz",
-		"3686": "MC101_BalthasarA_0_P_Face.bin.gz",
-		"3687": "MC101_BalthasarB_0_P_Face.bin.gz",
-		"3688": "MC102_ConstanzeA_0_P_Face00.bin.gz",
-		"3689": "MC102_ConstanzeB_0_P_Face00.bin.gz",
-		"3690": "MO000_FaceM00_0_P_Face.bin.gz",
-		"3692": "MO002_FaceM02_0_P_Face.bin.gz",
-		"3694": "MO004_FaceM04_0_P_Face.bin.gz",
-		"3695": "MO005_FaceM05_0_P_Face.bin.gz",
-		"3699": "MO009_FaceF09_0_P_Face.bin.gz",
-		"3700": "MO010_FaceF10_0_P_Face.bin.gz",
-		"3701": "MO011_FaceF11_0_P_Face.bin.gz",
-		"3718": "MC103_HapyA_0_P_Face.bin.gz",
-		"3719": "MC103_HapyB_0_P_Face.bin.gz",
-		"3723": "MO028_FaceM28_0_P_Face.bin.gz",
-		"3838": "MW100_Knuckle010_0.bin.gz",
-		"3949": "MT011_Sweets_0.bin.gz",
-		"4271": "KB_M18_0.bin.gz",
-		"4622": "KB_L_100_PACK.bin",
-		"4623": "KB_L_200_PACK.bin",
-		"4624": "KB_L_300_PACK.bin",
-		"4625": "KB_L_500_PACK.bin",
-		"4626": "KB_L_600_PACK.bin",
-		"4628": "KB_L_300_R_PACK.bin",
-		"4629": "KB_L_500_R_PACK.bin",
-		"4630": "KB_L_600_R_PACK.bin",
-		"4632": "BC_PACK.bin",
-		"5913": "fix.bin.gz",
-		"5916": "100_bmap.bin",
-		"5917": "200_magic.bin",
-		"5920": "600_title.bin",
-		"5926": "EffS004.bin",
-		"6022": "EffS100.bin",
-		"6038": "200_title.g1t.gz",
-		"6039": "200_title_ENG_U.g1t.gz",
-		"6040": "200_title_ENG_E.g1t.gz",
-		"6041": "200_title_GER.g1t.gz",
-		"6042": "200_title_FRA_E.g1t.gz",
-		"6043": "200_title_FRA_U.g1t.gz",
-		"6044": "200_title_ESP_E.g1t.gz",
-		"6045": "200_title_ESP_U.g1t.gz",
-		"6046": "200_title_ITA.g1t.gz",
-		"6047": "200_title_KOR.g1t.gz",
-		"6048": "200_title_TWN.g1t.gz",
-		"6049": "200_title_CHN.g1t.gz",
-		"6062": "400_abbey.g1t.gz",
-		"6063": "400_abbey_ENG_U.g1t.gz",
-		"6064": "400_abbey_ENG_E.g1t.gz",
-		"6065": "400_abbey_GER.g1t.gz",
-		"6066": "400_abbey_FRA_E.g1t.gz",
-		"6067": "400_abbey_FRA_U.g1t.gz",
-		"6068": "400_abbey_ESP_E.g1t.gz",
-		"6069": "400_abbey_ESP_U.g1t.gz",
-		"6070": "400_abbey_ITA.g1t.gz",
-		"6071": "400_abbey_KOR.g1t.gz",
-		"6072": "400_abbey_TWN.g1t.gz",
-		"6073": "400_abbey_CHN.g1t.gz",
-		"6074": "401_abbey_minimap.g1t.gz",
-		"6122": "minimap.bin",
-		"6143": "still_castle.bin",
-		"6145": "still_event.bin",
-		"6159": "IN_GeneralCameraInfo.bin",
-		"6162": "IN_FixedCameraInfo.bin",
-		"6163": "IN_EventBaseInfo.bin",
-		"6164": "IN_CubeStageBaseInfo.bin",
-		"6165": "IN_CubeStageChangeInfo.bin",
-		"6348": "TALK_EV00_007.bin",
-		"6382": "TALK_EV00_041.bin",
-		"6443": "TALK_EV00_102.bin",
-		"6484": "TALK_EV00_143.bin",
-		"6538": "TALK_EV01_055.bin",
-		"6553": "TALK_EV01_070.bin",
-		"6565": "TALK_EV01_082.bin",
-		"6629": "TALK_EV03_008.bin",
-		"6659": "TALK_EV03_038.bin",
-		"6722": "TALK_SE00_009_30.bin",
-		"6786": "TALK_SE00_022_20.bin",
-		"7583": "TEXT_TALK_EV00_143.bin",
-		"7631": "TEXT_TALK_EV01_049.bin",
-		"7637": "TEXT_TALK_EV01_055.bin",
-		"7885": "TEXT_TALK_SE00_022_20.bin",
-		"7970": "TEXT_TALK_SE01_010_10.bin",
-		"8355": "TEXT_TALK_SE01_143_00.bin",
-		"8556": "SC01_04_V.bin",
-		"8572": "SC02_02_V.bin",
-		"8575": "SC02_05_V.bin",
-		"8620": "SC05_00_V.bin",
-		"8621": "SC05_01_V.bin",
-		"8622": "SC05_02_V.bin",
-		"8623": "SC05_03_V.bin",
-		"8624": "SC05_04_V.bin",
-		"8625": "SC05_05_V.bin",
-		"8626": "SC05_06_V.bin",
-		"8627": "SC05_07_V.bin",
-		"8628": "SC05_08_V.bin",
-		"8631": "SC05_11_V.bin",
-		"8658": "SC01_04_S.bin",
-		"8674": "SC02_02_S.bin",
-		"8677": "SC02_05_S.bin",
-		"8722": "SC05_00_S.bin",
-		"8723": "SC05_01_S.bin",
-		"8724": "SC05_02_S.bin",
-		"8725": "SC05_03_S.bin",
-		"8726": "SC05_04_S.bin",
-		"8727": "SC05_05_S.bin",
-		"8728": "SC05_06_S.bin",
-		"8729": "SC05_07_S.bin",
-		"8730": "SC05_08_S.bin",
-		"8733": "SC05_11_S.bin",
-		"8754": "SC00_11_B.bin",
-		"8755": "SC00_12_B.bin",
-		"8758": "SC01_02_B.bin",
-		"8759": "SC01_03_B.bin",
-		"8760": "SC01_04_B.bin",
-		"8764": "SC01_08_B.bin",
-		"8767": "SC01_11_B.bin",
-		"8775": "SC02_01_B.bin",
-		"8776": "SC02_02_B.bin",
-		"8778": "SC02_04_B.bin",
-		"8779": "SC02_05_B.bin",
-		"8824": "SC05_00_B.bin",
-		"8825": "SC05_01_B.bin",
-		"8826": "SC05_02_B.bin",
-		"8827": "SC05_03_B.bin",
-		"8828": "SC05_04_B.bin",
-		"8829": "SC05_05_B.bin",
-		"8830": "SC05_06_B.bin",
-		"8831": "SC05_07_B.bin",
-		"8832": "SC05_08_B.bin",
-		"8835": "SC05_11_B.bin",
-		"8856": "SC00_11_B.dat",
-		"8857": "SC00_12_B.dat",
-		"8860": "SC01_02_B.dat",
-		"8861": "SC01_03_B.dat",
-		"8866": "SC01_08_B.dat",
-		"8869": "SC01_11_B.dat",
-		"8876": "SC02_00_B.dat",
-		"8877": "SC02_01_B.dat",
-		"8878": "SC02_02_B.dat",
-		"8880": "SC02_04_B.dat",
-		"8881": "SC02_05_B.dat",
-		"8926": "SC05_00_B.dat",
-		"8927": "SC05_01_B.dat",
-		"8928": "SC05_02_B.dat",
-		"8929": "SC05_03_B.dat",
-		"8930": "SC05_04_B.dat",
-		"8931": "SC05_05_B.dat",
-		"8932": "SC05_06_B.dat",
-		"8933": "SC05_07_B.dat",
-		"8934": "SC05_08_B.dat",
-		"8937": "SC05_11_B.dat",
-		"8956": "LO00_09_VMes_str.bin",
-		"8962": "LO02_03_VMes_str.bin",
-		"8964": "LO02_05_VMes_str.bin",
-		"8972": "LO03_07_VMes_str.bin",
-		"9027": "LO08_00_VMes_str.bin",
-		"9047": "LO08_00_VMes_str.bin",
-		"9062": "LO00_11_VMes_param.dat",
-		"9063": "LO00_12_VMes_param.dat",
-		"9066": "LO02_03_VMes_param.dat",
-		"9068": "LO02_05_VMes_param.dat",
-		"9170": "LO02_03_AMes_str.bin",
-		"9274": "LO02_03_AMes_param.dat",
-		"9369": "LO00_06_SMes_str.bin",
-		"9652": "TEXT_TALK_EV00_099.bin",
-		"9655": "TEXT_TALK_EV00_102.bin",
-		"9696": "TEXT_TALK_EV00_143.bin",
-		"9714": "TEXT_TALK_EV01_018.bin",
-		"9750": "TEXT_TALK_EV01_055.bin",
-		"9777": "TEXT_TALK_EV01_082.bin",
-		"9846": "TEXT_TALK_EV03_013.bin",
-		"9876": "TEXT_TALK_EV03_043.bin",
-		"9932": "TEXT_TALK_SE00_009_10.bin",
-		"9956": "TEXT_TALK_SE00_14_00.bin",
-		"9975": "TEXT_TALK_SE00_017_40.bin",
-		"9998": "TEXT_TALK_SE00_022_20.bin",
-		"10017": "TEXT_TALK_SE00_026_10.bin",
-		"10025": "TEXT_TALK_SE00_028_00.bin",
-		"10026": "TEXT_TALK_SE00_028_10.bin",
-		"10069": "TEXT_TALK_SE01_005_10.bin",
-		"10088": "TEXT_TALK_SE01_012_00.bin",
-		"10098": "TEXT_TALK_SE01_016_00.bin",
-		"10132": "TEXT_TALK_SE01_026_00.bin",
-		"10251": "TEXT_TALK_SE01_065_10.bin",
-		"10341": "TEXT_TALK_SE01_095_00.bin",
-		"10346": "TEXT_TALK_SE01_097_00.bin",
-		"10382": "TEXT_TALK_SE01_109_20.bin",
-		"10406": "TEXT_TALK_SE01_117_21.bin",
-		"10471": "TEXT_TALK_SE01_143_20.bin",
-		"10595": "TEXT_TALK_SE01_184_20.bin",
-		"10678": "SC01_13_V.bin",
-		"10688": "SC02_05_V.bin",
-		"10733": "SC05_00_V.bin",
-		"10734": "SC05_01_V.bin",
-		"10735": "SC05_02_V.bin",
-		"10736": "SC05_03_V.bin",
-		"10737": "SC05_04_V.bin",
-		"10738": "SC05_05_V.bin",
-		"10739": "SC05_06_V.bin",
-		"10740": "SC05_07_V.bin",
-		"10741": "SC05_08_V.bin",
-		"10744": "SC05_11_V.bin",
-		"10787": "SC02_02_S_ENG_U.bin",
-		"10835": "SC05_00_S_ENG_U.bin",
-		"10836": "SC05_01_S_ENG_U.bin",
-		"10837": "SC05_02_S_ENG_U.bin",
-		"10838": "SC05_03_S_ENG_U.bin",
-		"10839": "SC05_04_S_ENG_U.bin",
-		"10840": "SC05_05_S_ENG_U.bin",
-		"10841": "SC05_06_S_ENG_U.bin",
-		"10842": "SC05_07_S_ENG_U.bin",
-		"10843": "SC05_08_S_ENG_U.bin",
-		"10846": "SC05_11_S_ENG_U.bin",
-		"10867": "SC00_11_B.bin",
-		"10868": "SC00_12_B.bin",
-		"10871": "SC01_02_B.bin",
-		"10872": "SC01_03_B.bin",
-		"10873": "SC01_04_B.bin",
-		"10877": "SC01_08_B.bin",
-		"10880": "SC01_11_B.bin",
-		"10888": "SC02_01_B.bin",
-		"10889": "SC02_02_B.bin",
-		"10891": "SC02_04_B.bin",
-		"10892": "SC02_05_B.bin",
-		"10937": "SC05_00_B.bin",
-		"10938": "SC05_01_B.bin",
-		"10939": "SC05_02_B.bin",
-		"10940": "SC05_03_B.bin",
-		"10941": "SC05_04_B.bin",
-		"10942": "SC05_05_B.bin",
-		"10943": "SC05_06_B.bin",
-		"10944": "SC05_07_B.bin",
-		"10945": "SC05_08_B.bin",
-		"10948": "SC05_11_B.bin",
-		"10959": "LO00_01_VMes_str.bin",
-		"10963": "LO00_05_VMes_str.bin",
-		"10969": "LO00_11_VMes_str.bin",
-		"10973": "LO02_03_VMes_str.bin",
-		"10983": "LO03_07_VMes_str.bin",
-		"10992": "LO04_08_VMes_str.bin",
-		"11000": "LO05_08_VMes_str.bin",
-		"11077": "LO02_03_AMes_str.bin",
-		"11172": "LO00_06_SMes_str.bin",
-		"11455": "TEXT_TALK_EV00_099.bin",
-		"11458": "TEXT_TALK_EV00_102.bin",
-		"11499": "TEXT_TALK_EV00_143.bin",
-		"11517": "TEXT_TALK_EV01_018.bin",
-		"11553": "TEXT_TALK_EV01_055.bin",
-		"11580": "TEXT_TALK_EV01_082.bin",
-		"11649": "TEXT_TALK_EV03_013.bin",
-		"11679": "TEXT_TALK_EV03_043.bin",
-		"11735": "TEXT_TALK_SE00_009_10.bin",
-		"11759": "TEXT_TALK_SE00_14_00.bin",
-		"11778": "TEXT_TALK_SE00_017_40.bin",
-		"11801": "TEXT_TALK_SE00_022_20.bin",
-		"11820": "TEXT_TALK_SE00_026_10.bin",
-		"11828": "TEXT_TALK_SE00_028_00.bin",
-		"11829": "TEXT_TALK_SE00_028_10.bin",
-		"11872": "TEXT_TALK_SE01_005_10.bin",
-		"11891": "TEXT_TALK_SE01_012_00.bin",
-		"11901": "TEXT_TALK_SE01_016_00.bin",
-		"11935": "TEXT_TALK_SE01_026_00.bin",
-		"12054": "TEXT_TALK_SE01_065_10.bin",
-		"12144": "TEXT_TALK_SE01_095_00.bin",
-		"12149": "TEXT_TALK_SE01_097_00.bin",
-		"12185": "TEXT_TALK_SE01_109_20.bin",
-		"12209": "TEXT_TALK_SE01_117_21.bin",
-		"12274": "TEXT_TALK_SE01_143_20.bin",
-		"12398": "TEXT_TALK_SE01_184_20.bin",
-		"12481": "SC01_13_V.bin",
-		"12491": "SC02_05_V.bin",
-		"12536": "SC05_00_V.bin",
-		"12537": "SC05_01_V.bin",
-		"12538": "SC05_02_V.bin",
-		"12539": "SC05_03_V.bin",
-		"12540": "SC05_04_V.bin",
-		"12541": "SC05_05_V.bin",
-		"12542": "SC05_06_V.bin",
-		"12543": "SC05_07_V.bin",
-		"12544": "SC05_08_V.bin",
-		"12547": "SC05_11_V.bin",
-		"12590": "SC02_02_S_ENG_E.bin",
-		"12638": "SC05_00_S_ENG_E.bin",
-		"12639": "SC05_01_S_ENG_E.bin",
-		"12640": "SC05_02_S_ENG_E.bin",
-		"12641": "SC05_03_S_ENG_E.bin",
-		"12642": "SC05_04_S_ENG_E.bin",
-		"12643": "SC05_05_S_ENG_E.bin",
-		"12644": "SC05_06_S_ENG_E.bin",
-		"12645": "SC05_07_S_ENG_E.bin",
-		"12646": "SC05_08_S_ENG_E.bin",
-		"12649": "SC05_11_S_ENG_E.bin",
-		"12670": "SC00_11_B.bin",
-		"12671": "SC00_12_B.bin",
-		"12674": "SC01_02_B.bin",
-		"12675": "SC01_03_B.bin",
-		"12676": "SC01_04_B.bin",
-		"12680": "SC01_08_B.bin",
-		"12683": "SC01_11_B.bin",
-		"12691": "SC02_01_B.bin",
-		"12692": "SC02_02_B.bin",
-		"12694": "SC02_04_B.bin",
-		"12695": "SC02_05_B.bin",
-		"12740": "SC05_00_B.bin",
-		"12741": "SC05_01_B.bin",
-		"12742": "SC05_02_B.bin",
-		"12743": "SC05_03_B.bin",
-		"12744": "SC05_04_B.bin",
-		"12745": "SC05_05_B.bin",
-		"12746": "SC05_06_B.bin",
-		"12747": "SC05_07_B.bin",
-		"12748": "SC05_08_B.bin",
-		"12751": "SC05_11_B.bin",
-		"12762": "LO00_01_VMes_str.bin",
-		"12766": "LO00_05_VMes_str.bin",
-		"12772": "LO00_11_VMes_str.bin",
-		"12776": "LO02_03_VMes_str.bin",
-		"12786": "LO03_07_VMes_str.bin",
-		"12795": "LO04_08_VMes_str.bin",
-		"12803": "LO05_08_VMes_str.bin",
-		"12880": "LO02_03_AMes_str.bin",
-		"12975": "LO00_06_SMes_str.bin",
-		"13258": "TEXT_TALK_EV00_099.bin",
-		"13261": "TEXT_TALK_EV00_102.bin",
-		"13302": "TEXT_TALK_EV00_143.bin",
-		"13356": "TEXT_TALK_EV01_055.bin",
-		"13383": "TEXT_TALK_EV01_082.bin",
-		"13538": "TEXT_TALK_SE00_009_10.bin",
-		"13604": "TEXT_TALK_SE00_022_20.bin",
-		"13675": "TEXT_TALK_SE01_005_10.bin",
-		"13680": "TEXT_TALK_SE01_007_00.bin",
-		"13738": "TEXT_TALK_SE01_026_00.bin",
-		"13779": "TEXT_TALK_SE01_039_00.bin",
-		"13840": "TEXT_TALK_SE01_060_00.bin",
-		"13952": "TEXT_TALK_SE01_097_00.bin",
-		"13988": "TEXT_TALK_SE01_109_20.bin",
-		"14012": "TEXT_TALK_SE01_117_21.bin",
-		"14201": "TEXT_TALK_SE01_184_20.bin",
-		"14294": "SC02_05_V.bin",
-		"14339": "SC05_00_V.bin",
-		"14340": "SC05_01_V.bin",
-		"14341": "SC05_02_V.bin",
-		"14342": "SC05_03_V.bin",
-		"14343": "SC05_04_V.bin",
-		"14344": "SC05_05_V.bin",
-		"14345": "SC05_06_V.bin",
-		"14346": "SC05_07_V.bin",
-		"14347": "SC05_08_V.bin",
-		"14350": "SC05_11_V.bin",
-		"14393": "SC02_02_S_GER.bin",
-		"14441": "SC05_00_S_GER.bin",
-		"14442": "SC05_01_S_GER.bin",
-		"14443": "SC05_02_S_GER.bin",
-		"14444": "SC05_03_S_GER.bin",
-		"14445": "SC05_04_S_GER.bin",
-		"14446": "SC05_05_S_GER.bin",
-		"14447": "SC05_06_S_GER.bin",
-		"14448": "SC05_07_S_GER.bin",
-		"14449": "SC05_08_S_GER.bin",
-		"14452": "SC05_11_S_GER.bin",
-		"14473": "SC00_11_B.bin",
-		"14474": "SC00_12_B.bin",
-		"14477": "SC01_02_B.bin",
-		"14478": "SC01_03_B.bin",
-		"14479": "SC01_04_B.bin",
-		"14483": "SC01_08_B.bin",
-		"14486": "SC01_11_B.bin",
-		"14494": "SC02_01_B.bin",
-		"14495": "SC02_02_B.bin",
-		"14497": "SC02_04_B.bin",
-		"14498": "SC02_05_B.bin",
-		"14543": "SC05_00_B.bin",
-		"14544": "SC05_01_B.bin",
-		"14545": "SC05_02_B.bin",
-		"14546": "SC05_03_B.bin",
-		"14547": "SC05_04_B.bin",
-		"14548": "SC05_05_B.bin",
-		"14549": "SC05_06_B.bin",
-		"14550": "SC05_07_B.bin",
-		"14551": "SC05_08_B.bin",
-		"14554": "SC05_11_B.bin",
-		"14565": "LO00_01_VMes_str.bin",
-		"14579": "LO02_03_VMes_str.bin",
-		"14589": "LO03_07_VMes_str.bin",
-		"14670": "LO00_02_AMes_str.bin",
-		"14683": "LO02_03_AMes_str.bin",
-		"14778": "LO00_06_SMes_str.bin",
-		"15052": "TEXT_TALK_EV00_090.bin",
-		"15053": "TEXT_TALK_EV00_091.bin",
-		"15054": "TEXT_TALK_EV00_092.bin",
-		"15055": "TEXT_TALK_EV00_093.bin",
-		"15061": "TEXT_TALK_EV00_099.bin",
-		"15064": "TEXT_TALK_EV00_102.bin",
-		"15083": "TEXT_TALK_EV00_121.bin",
-		"15101": "TEXT_TALK_EV00_139.bin",
-		"15105": "TEXT_TALK_EV00_143.bin",
-		"15159": "TEXT_TALK_EV01_055.bin",
-		"15161": "TEXT_TALK_EV01_057.bin",
-		"15186": "TEXT_TALK_EV01_082.bin",
-		"15277": "TEXT_TALK_EV03_035.bin",
-		"15286": "TEXT_TALK_EV03_044.bin",
-		"15287": "TEXT_TALK_EV03_045.bin",
-		"15341": "TEXT_TALK_SE00_009_10.bin",
-		"15361": "TEXT_TALK_SE00_013_10.bin",
-		"15382": "TEXT_TALK_SE00_017_20.bin",
-		"15387": "TEXT_TALK_SE00_018_20.bin",
-		"15400": "TEXT_TALK_SE00_021_00.bin",
-		"15407": "TEXT_TALK_SE00_022_20.bin",
-		"15430": "TEXT_TALK_SE00_027_10.bin",
-		"15434": "TEXT_TALK_SE00_028_00.bin",
-		"15440": "TEXT_TALK_SE00_029_20.bin",
-		"15478": "TEXT_TALK_SE01_005_10.bin",
-		"15507": "TEXT_TALK_SE01_016_00.bin",
-		"15638": "TEXT_TALK_SE01_058_10.bin",
-		"15661": "TEXT_TALK_SE01_065_20.bin",
-		"15710": "TEXT_TALK_SE01_081_21.bin",
-		"15755": "TEXT_TALK_SE01_097_00.bin",
-		"15780": "TEXT_TALK_SE01_106_00.bin",
-		"15791": "TEXT_TALK_SE01_109_20.bin",
-		"15814": "TEXT_TALK_SE01_117_20.bin",
-		"15815": "TEXT_TALK_SE01_117_21.bin",
-		"15817": "TEXT_TALK_SE01_118_10.bin",
-		"15818": "TEXT_TALK_SE01_118_20.bin",
-		"15822": "TEXT_TALK_SE01_120_00.bin",
-		"15823": "TEXT_TALK_SE01_120_10.bin",
-		"15831": "TEXT_TALK_SE01_123_10.bin",
-		"15851": "TEXT_TALK_SE01_132_00.bin",
-		"15872": "TEXT_TALK_SE01_140_10.bin",
-		"15920": "TEXT_TALK_SE01_155_20.bin",
-		"15949": "TEXT_TALK_SE01_165_00.bin",
-		"15960": "TEXT_TALK_SE01_168_10.bin",
-		"15982": "TEXT_TALK_SE01_177_00.bin",
-		"15990": "TEXT_TALK_SE01_180_00.bin",
-		"16019": "TEXT_TALK_SE01_190_00.bin",
-		"16097": "SC02_05_V.bin",
-		"16106": "SC03_07_V.bin",
-		"16110": "SC03_11_V.bin",
-		"16142": "SC05_00_V.bin",
-		"16143": "SC05_01_V.bin",
-		"16144": "SC05_02_V.bin",
-		"16145": "SC05_03_V.bin",
-		"16146": "SC05_04_V.bin",
-		"16147": "SC05_05_V.bin",
-		"16148": "SC05_06_V.bin",
-		"16149": "SC05_07_V.bin",
-		"16150": "SC05_08_V.bin",
-		"16153": "SC05_11_V.bin",
-		"16196": "SC02_02_S_FRA_E.bin",
-		"16244": "SC05_00_S_FRA_E.bin",
-		"16245": "SC05_01_S_FRA_E.bin",
-		"16246": "SC05_02_S_FRA_E.bin",
-		"16247": "SC05_03_S_FRA_E.bin",
-		"16248": "SC05_04_S_FRA_E.bin",
-		"16249": "SC05_05_S_FRA_E.bin",
-		"16250": "SC05_06_S_FRA_E.bin",
-		"16251": "SC05_07_S_FRA_E.bin",
-		"16252": "SC05_08_S_FRA_E.bin",
-		"16255": "SC05_11_S_FRA_E.bin",
-		"16276": "SC00_11_B.bin",
-		"16277": "SC00_12_B.bin",
-		"16280": "SC01_02_B.bin",
-		"16281": "SC01_03_B.bin",
-		"16282": "SC01_04_B.bin",
-		"16286": "SC01_08_B.bin",
-		"16289": "SC01_11_B.bin",
-		"16297": "SC02_01_B.bin",
-		"16298": "SC02_02_B.bin",
-		"16300": "SC02_04_B.bin",
-		"16301": "SC02_05_B.bin",
-		"16346": "SC05_00_B.bin",
-		"16347": "SC05_01_B.bin",
-		"16348": "SC05_02_B.bin",
-		"16349": "SC05_03_B.bin",
-		"16350": "SC05_04_B.bin",
-		"16351": "SC05_05_B.bin",
-		"16352": "SC05_06_B.bin",
-		"16353": "SC05_07_B.bin",
-		"16354": "SC05_08_B.bin",
-		"16357": "SC05_11_B.bin",
-		"16368": "LO00_01_VMes_str.bin",
-		"16371": "LO00_04_VMes_str.bin",
-		"16373": "LO00_06_VMes_str.bin",
-		"16374": "LO00_07_VMes_str.bin",
-		"16376": "LO00_09_VMes_str.bin",
-		"16377": "LO00_10_VMes_str.bin",
-		"16378": "LO00_11_VMes_str.bin",
-		"16382": "LO02_03_VMes_str.bin",
-		"16388": "LO03_03_VMes_str.bin",
-		"16392": "LO03_07_VMes_str.bin",
-		"16396": "LO04_03_VMes_str.bin",
-		"16486": "LO02_03_AMes_str.bin",
-		"16581": "LO00_06_SMes_str.bin",
-		"16855": "TEXT_TALK_EV00_090.bin",
-		"16856": "TEXT_TALK_EV00_091.bin",
-		"16857": "TEXT_TALK_EV00_092.bin",
-		"16858": "TEXT_TALK_EV00_093.bin",
-		"16864": "TEXT_TALK_EV00_099.bin",
-		"16867": "TEXT_TALK_EV00_102.bin",
-		"16886": "TEXT_TALK_EV00_121.bin",
-		"16904": "TEXT_TALK_EV00_139.bin",
-		"16908": "TEXT_TALK_EV00_143.bin",
-		"16962": "TEXT_TALK_EV01_055.bin",
-		"16964": "TEXT_TALK_EV01_057.bin",
-		"16989": "TEXT_TALK_EV01_082.bin",
-		"17080": "TEXT_TALK_EV03_035.bin",
-		"17089": "TEXT_TALK_EV03_044.bin",
-		"17090": "TEXT_TALK_EV03_045.bin",
-		"17144": "TEXT_TALK_SE00_009_10.bin",
-		"17164": "TEXT_TALK_SE00_013_10.bin",
-		"17185": "TEXT_TALK_SE00_017_20.bin",
-		"17190": "TEXT_TALK_SE00_018_20.bin",
-		"17203": "TEXT_TALK_SE00_021_00.bin",
-		"17210": "TEXT_TALK_SE00_022_20.bin",
-		"17233": "TEXT_TALK_SE00_027_10.bin",
-		"17237": "TEXT_TALK_SE00_028_00.bin",
-		"17243": "TEXT_TALK_SE00_029_20.bin",
-		"17281": "TEXT_TALK_SE01_005_10.bin",
-		"17310": "TEXT_TALK_SE01_016_00.bin",
-		"17441": "TEXT_TALK_SE01_058_10.bin",
-		"17464": "TEXT_TALK_SE01_065_20.bin",
-		"17513": "TEXT_TALK_SE01_081_21.bin",
-		"17558": "TEXT_TALK_SE01_097_00.bin",
-		"17583": "TEXT_TALK_SE01_106_00.bin",
-		"17594": "TEXT_TALK_SE01_109_20.bin",
-		"17617": "TEXT_TALK_SE01_117_20.bin",
-		"17618": "TEXT_TALK_SE01_117_21.bin",
-		"17620": "TEXT_TALK_SE01_118_10.bin",
-		"17621": "TEXT_TALK_SE01_118_20.bin",
-		"17625": "TEXT_TALK_SE01_120_00.bin",
-		"17626": "TEXT_TALK_SE01_120_10.bin",
-		"17634": "TEXT_TALK_SE01_123_10.bin",
-		"17654": "TEXT_TALK_SE01_132_00.bin",
-		"17675": "TEXT_TALK_SE01_140_10.bin",
-		"17723": "TEXT_TALK_SE01_155_20.bin",
-		"17752": "TEXT_TALK_SE01_165_00.bin",
-		"17763": "TEXT_TALK_SE01_168_10.bin",
-		"17785": "TEXT_TALK_SE01_177_00.bin",
-		"17793": "TEXT_TALK_SE01_180_00.bin",
-		"17822": "TEXT_TALK_SE01_190_00.bin",
-		"17900": "SC02_05_V.bin",
-		"17909": "SC03_07_V.bin",
-		"17913": "SC03_11_V.bin",
-		"17945": "SC05_00_V.bin",
-		"17946": "SC05_01_V.bin",
-		"17947": "SC05_02_V.bin",
-		"17948": "SC05_03_V.bin",
-		"17949": "SC05_04_V.bin",
-		"17950": "SC05_05_V.bin",
-		"17951": "SC05_06_V.bin",
-		"17952": "SC05_07_V.bin",
-		"17953": "SC05_08_V.bin",
-		"17956": "SC05_11_V.bin",
-		"17999": "SC02_02_S_FRA_U.bin",
-		"18047": "SC05_00_S_FRA_U.bin",
-		"18048": "SC05_01_S_FRA_U.bin",
-		"18049": "SC05_02_S_FRA_U.bin",
-		"18050": "SC05_03_S_FRA_U.bin",
-		"18051": "SC05_04_S_FRA_U.bin",
-		"18052": "SC05_05_S_FRA_U.bin",
-		"18053": "SC05_06_S_FRA_U.bin",
-		"18054": "SC05_07_S_FRA_U.bin",
-		"18055": "SC05_08_S_FRA_U.bin",
-		"18058": "SC05_11_S_FRA_U.bin",
-		"18079": "SC00_11_B.bin",
-		"18080": "SC00_12_B.bin",
-		"18083": "SC01_02_B.bin",
-		"18084": "SC01_03_B.bin",
-		"18085": "SC01_04_B.bin",
-		"18089": "SC01_08_B.bin",
-		"18092": "SC01_11_B.bin",
-		"18100": "SC02_01_B.bin",
-		"18101": "SC02_02_B.bin",
-		"18103": "SC02_04_B.bin",
-		"18104": "SC02_05_B.bin",
-		"18149": "SC05_00_B.bin",
-		"18150": "SC05_01_B.bin",
-		"18151": "SC05_02_B.bin",
-		"18152": "SC05_03_B.bin",
-		"18153": "SC05_04_B.bin",
-		"18154": "SC05_05_B.bin",
-		"18155": "SC05_06_B.bin",
-		"18156": "SC05_07_B.bin",
-		"18157": "SC05_08_B.bin",
-		"18160": "SC05_11_B.bin",
-		"18171": "LO00_01_VMes_str.bin",
-		"18174": "LO00_04_VMes_str.bin",
-		"18176": "LO00_06_VMes_str.bin",
-		"18177": "LO00_07_VMes_str.bin",
-		"18179": "LO00_09_VMes_str.bin",
-		"18180": "LO00_10_VMes_str.bin",
-		"18181": "LO00_11_VMes_str.bin",
-		"18185": "LO02_03_VMes_str.bin",
-		"18191": "LO03_03_VMes_str.bin",
-		"18195": "LO03_07_VMes_str.bin",
-		"18199": "LO04_03_VMes_str.bin",
-		"18289": "LO02_03_AMes_str.bin",
-		"18384": "LO00_06_SMes_str.bin",
-		"18614": "TEXT_TALK_EV00_046.bin",
-		"18640": "TEXT_TALK_EV00_072.bin",
-		"18667": "TEXT_TALK_EV00_099.bin",
-		"18670": "TEXT_TALK_EV00_102.bin",
-		"18711": "TEXT_TALK_EV00_143.bin",
-		"18758": "TEXT_TALK_EV01_048.bin",
-		"18765": "TEXT_TALK_EV01_055.bin",
-		"18792": "TEXT_TALK_EV01_082.bin",
-		"18881": "TEXT_TALK_EV03_033.bin",
-		"18913": "TEXT_TALK_SE00_002_30.bin",
-		"18947": "TEXT_TALK_SE00_009_10.bin",
-		"18951": "TEXT_TALK_SE00_010_00.bin",
-		"18975": "TEXT_TALK_SE00_14_40.bin",
-		"19001": "TEXT_TALK_SE00_020_00.bin",
-		"19009": "TEXT_TALK_SE00_021_30.bin",
-		"19013": "TEXT_TALK_SE00_022_20.bin",
-		"19084": "TEXT_TALK_SE01_005_10.bin",
-		"19168": "TEXT_TALK_SE01_033_000.bin",
-		"19186": "TEXT_TALK_SE01_038_20.bin",
-		"19229": "TEXT_TALK_SE01_053_20.bin",
-		"19361": "TEXT_TALK_SE01_097_00.bin",
-		"19397": "TEXT_TALK_SE01_109_20.bin",
-		"19421": "TEXT_TALK_SE01_117_21.bin",
-		"19575": "TEXT_TALK_SE01_172_00.bin",
-		"19610": "TEXT_TALK_SE01_184_20.bin",
-		"19641": "TEXT_TALK_SE01_196_00.bin",
-		"19642": "TEXT_TALK_SE01_196_10.bin",
-		"19703": "SC02_05_V.bin",
-		"19748": "SC05_00_V.bin",
-		"19749": "SC05_01_V.bin",
-		"19750": "SC05_02_V.bin",
-		"19751": "SC05_03_V.bin",
-		"19752": "SC05_04_V.bin",
-		"19753": "SC05_05_V.bin",
-		"19754": "SC05_06_V.bin",
-		"19755": "SC05_07_V.bin",
-		"19756": "SC05_08_V.bin",
-		"19759": "SC05_11_V.bin",
-		"19779": "SC00_10_S_ESP_E.bin",
-		"19802": "SC02_02_S_ESP_E.bin",
-		"19850": "SC05_00_S_ESP_E.bin",
-		"19851": "SC05_01_S_ESP_E.bin",
-		"19852": "SC05_02_S_ESP_E.bin",
-		"19853": "SC05_03_S_ESP_E.bin",
-		"19854": "SC05_04_S_ESP_E.bin",
-		"19855": "SC05_05_S_ESP_E.bin",
-		"19856": "SC05_06_S_ESP_E.bin",
-		"19857": "SC05_07_S_ESP_E.bin",
-		"19858": "SC05_08_S_ESP_E.bin",
-		"19861": "SC05_11_S_ESP_E.bin",
-		"19882": "SC00_11_B.bin",
-		"19883": "SC00_12_B.bin",
-		"19886": "SC01_02_B.bin",
-		"19887": "SC01_03_B.bin",
-		"19888": "SC01_04_B.bin",
-		"19892": "SC01_08_B.bin",
-		"19895": "SC01_11_B.bin",
-		"19903": "SC02_01_B.bin",
-		"19904": "SC02_02_B.bin",
-		"19906": "SC02_04_B.bin",
-		"19907": "SC02_05_B.bin",
-		"19952": "SC05_00_B.bin",
-		"19953": "SC05_01_B.bin",
-		"19954": "SC05_02_B.bin",
-		"19955": "SC05_03_B.bin",
-		"19956": "SC05_04_B.bin",
-		"19957": "SC05_05_B.bin",
-		"19958": "SC05_06_B.bin",
-		"19959": "SC05_07_B.bin",
-		"19960": "SC05_08_B.bin",
-		"19963": "SC05_11_B.bin",
-		"19977": "LO00_04_VMes_str.bin",
-		"19984": "LO00_11_VMes_str.bin",
-		"19988": "LO02_03_VMes_str.bin",
-		"19998": "LO03_07_VMes_str.bin",
-		"20092": "LO02_03_AMes_str.bin",
-		"20187": "LO00_06_SMes_str.bin",
-		"20389": "TEXT_TALK_EV00_018.bin",
-		"20443": "TEXT_TALK_EV00_072.bin",
-		"20470": "TEXT_TALK_EV00_099.bin",
-		"20473": "TEXT_TALK_EV00_102.bin",
-		"20514": "TEXT_TALK_EV00_143.bin",
-		"20561": "TEXT_TALK_EV01_048.bin",
-		"20568": "TEXT_TALK_EV01_055.bin",
-		"20595": "TEXT_TALK_EV01_082.bin",
-		"20684": "TEXT_TALK_EV03_033.bin",
-		"20716": "TEXT_TALK_SE00_002_30.bin",
-		"20750": "TEXT_TALK_SE00_009_10.bin",
-		"20754": "TEXT_TALK_SE00_010_00.bin",
-		"20778": "TEXT_TALK_SE00_14_40.bin",
-		"20804": "TEXT_TALK_SE00_020_00.bin",
-		"20812": "TEXT_TALK_SE00_021_30.bin",
-		"20816": "TEXT_TALK_SE00_022_20.bin",
-		"20887": "TEXT_TALK_SE01_005_10.bin",
-		"20971": "TEXT_TALK_SE01_033_000.bin",
-		"20989": "TEXT_TALK_SE01_038_20.bin",
-		"21032": "TEXT_TALK_SE01_053_20.bin",
-		"21164": "TEXT_TALK_SE01_097_00.bin",
-		"21200": "TEXT_TALK_SE01_109_20.bin",
-		"21202": "TEXT_TALK_SE01_110_00.bin",
-		"21224": "TEXT_TALK_SE01_117_21.bin",
-		"21378": "TEXT_TALK_SE01_172_00.bin",
-		"21392": "TEXT_TALK_SE01_177_10.bin",
-		"21411": "TEXT_TALK_SE01_184_00.bin",
-		"21413": "TEXT_TALK_SE01_184_20.bin",
-		"21444": "TEXT_TALK_SE01_196_00.bin",
-		"21445": "TEXT_TALK_SE01_196_10.bin",
-		"21506": "SC02_05_V.bin",
-		"21551": "SC05_00_V.bin",
-		"21552": "SC05_01_V.bin",
-		"21553": "SC05_02_V.bin",
-		"21554": "SC05_03_V.bin",
-		"21555": "SC05_04_V.bin",
-		"21556": "SC05_05_V.bin",
-		"21557": "SC05_06_V.bin",
-		"21558": "SC05_07_V.bin",
-		"21559": "SC05_08_V.bin",
-		"21562": "SC05_11_V.bin",
-		"21582": "SC00_10_S_ESP_U.bin",
-		"21605": "SC02_02_S_ESP_U.bin",
-		"21653": "SC05_00_S_ESP_U.bin",
-		"21654": "SC05_01_S_ESP_U.bin",
-		"21655": "SC05_02_S_ESP_U.bin",
-		"21656": "SC05_03_S_ESP_U.bin",
-		"21657": "SC05_04_S_ESP_U.bin",
-		"21658": "SC05_05_S_ESP_U.bin",
-		"21659": "SC05_06_S_ESP_U.bin",
-		"21660": "SC05_07_S_ESP_U.bin",
-		"21661": "SC05_08_S_ESP_U.bin",
-		"21664": "SC05_11_S_ESP_U.bin",
-		"21685": "SC00_11_B.bin",
-		"21686": "SC00_12_B.bin",
-		"21689": "SC01_02_B.bin",
-		"21690": "SC01_03_B.bin",
-		"21691": "SC01_04_B.bin",
-		"21695": "SC01_08_B.bin",
-		"21698": "SC01_11_B.bin",
-		"21706": "SC02_01_B.bin",
-		"21707": "SC02_02_B.bin",
-		"21709": "SC02_04_B.bin",
-		"21710": "SC02_05_B.bin",
-		"21755": "SC05_00_B.bin",
-		"21756": "SC05_01_B.bin",
-		"21757": "SC05_02_B.bin",
-		"21758": "SC05_03_B.bin",
-		"21759": "SC05_04_B.bin",
-		"21760": "SC05_05_B.bin",
-		"21761": "SC05_06_B.bin",
-		"21762": "SC05_07_B.bin",
-		"21763": "SC05_08_B.bin",
-		"21766": "SC05_11_B.bin",
-		"21780": "LO00_04_VMes_str.bin",
-		"21787": "LO00_11_VMes_str.bin",
-		"21791": "LO02_03_VMes_str.bin",
-		"21797": "LO03_03_VMes_str.bin",
-		"21801": "LO03_07_VMes_str.bin",
-		"21813": "LO05_03_VMes_str.bin",
-		"21895": "LO02_03_AMes_str.bin",
-		"21990": "LO00_06_SMes_str.bin",
-		"22273": "TEXT_TALK_EV00_099.bin",
-		"22276": "TEXT_TALK_EV00_102.bin",
-		"22317": "TEXT_TALK_EV00_143.bin",
-		"22371": "TEXT_TALK_EV01_055.bin",
-		"22398": "TEXT_TALK_EV01_082.bin",
-		"22553": "TEXT_TALK_SE00_009_10.bin",
-		"22619": "TEXT_TALK_SE00_022_20.bin",
-		"22690": "TEXT_TALK_SE01_005_10.bin",
-		"22753": "TEXT_TALK_SE01_026_00.bin",
-		"22967": "TEXT_TALK_SE01_097_00.bin",
-		"23003": "TEXT_TALK_SE01_109_20.bin",
-		"23027": "TEXT_TALK_SE01_117_21.bin",
-		"23216": "TEXT_TALK_SE01_184_20.bin",
-		"23309": "SC02_05_V.bin",
-		"23354": "SC05_00_V.bin",
-		"23355": "SC05_01_V.bin",
-		"23356": "SC05_02_V.bin",
-		"23357": "SC05_03_V.bin",
-		"23358": "SC05_04_V.bin",
-		"23359": "SC05_05_V.bin",
-		"23360": "SC05_06_V.bin",
-		"23361": "SC05_07_V.bin",
-		"23362": "SC05_08_V.bin",
-		"23365": "SC05_11_V.bin",
-		"23382": "SC00_07_S_ITA.bin",
-		"23408": "SC02_02_S_ITA.bin",
-		"23456": "SC05_00_S_ITA.bin",
-		"23457": "SC05_01_S_ITA.bin",
-		"23458": "SC05_02_S_ITA.bin",
-		"23459": "SC05_03_S_ITA.bin",
-		"23460": "SC05_04_S_ITA.bin",
-		"23461": "SC05_05_S_ITA.bin",
-		"23462": "SC05_06_S_ITA.bin",
-		"23463": "SC05_07_S_ITA.bin",
-		"23464": "SC05_08_S_ITA.bin",
-		"23467": "SC05_11_S_ITA.bin",
-		"23488": "SC00_11_B.bin",
-		"23489": "SC00_12_B.bin",
-		"23492": "SC01_02_B.bin",
-		"23493": "SC01_03_B.bin",
-		"23494": "SC01_04_B.bin",
-		"23498": "SC01_08_B.bin",
-		"23501": "SC01_11_B.bin",
-		"23509": "SC02_01_B.bin",
-		"23510": "SC02_02_B.bin",
-		"23512": "SC02_04_B.bin",
-		"23513": "SC02_05_B.bin",
-		"23558": "SC05_00_B.bin",
-		"23559": "SC05_01_B.bin",
-		"23560": "SC05_02_B.bin",
-		"23561": "SC05_03_B.bin",
-		"23562": "SC05_04_B.bin",
-		"23563": "SC05_05_B.bin",
-		"23564": "SC05_06_B.bin",
-		"23565": "SC05_07_B.bin",
-		"23566": "SC05_08_B.bin",
-		"23569": "SC05_11_B.bin",
-		"23580": "LO00_01_VMes_str.bin",
-		"23581": "LO00_02_VMes_str.bin",
-		"23590": "LO00_11_VMes_str.bin",
-		"23594": "LO02_03_VMes_str.bin",
-		"23604": "LO03_07_VMes_str.bin",
-		"23698": "LO02_03_AMes_str.bin",
-		"23793": "LO00_06_SMes_str.bin",
-		"24085": "TEXT_TALK_EV00_108.bin",
-		"24120": "TEXT_TALK_EV00_143.bin",
-		"24123": "TEXT_TALK_EV01_003.bin",
-		"24174": "TEXT_TALK_EV01_055.bin",
-		"24183": "TEXT_TALK_EV01_064.bin",
-		"24212": "TEXT_TALK_EV01_093.bin",
-		"24228": "TEXT_TALK_EV02_007.bin",
-		"24238": "TEXT_TALK_EV02_017.bin",
-		"24242": "TEXT_TALK_EV02_021.bin",
-		"24244": "TEXT_TALK_EV02_023.bin",
-		"24286": "TEXT_TALK_EV03_029.bin",
-		"24347": "TEXT_TALK_SE00_007_20.bin",
-		"24422": "TEXT_TALK_SE00_022_20.bin",
-		"24445": "TEXT_TALK_SE00_027_10.bin",
-		"24484": "TEXT_TALK_SE01_002_20.bin",
-		"24516": "TEXT_TALK_SE01_013_10.bin",
-		"24521": "TEXT_TALK_SE01_015_10.bin",
-		"24736": "TEXT_TALK_SE01_085_10.bin",
-		"24743": "TEXT_TALK_SE01_087_10.bin",
-		"24776": "TEXT_TALK_SE01_099_10.bin",
-		"24809": "TEXT_TALK_SE01_110_10.bin",
-		"24825": "TEXT_TALK_SE01_116_10.bin",
-		"24828": "TEXT_TALK_SE01_117_10.bin",
-		"24851": "TEXT_TALK_SE01_125_10.bin",
-		"24880": "TEXT_TALK_SE01_137_10.bin",
-		"24899": "TEXT_TALK_SE01_144_21.bin",
-		"24900": "TEXT_TALK_SE01_145_00.bin",
-		"24965": "TEXT_TALK_SE01_165_10.bin",
-		"25084": "SC00_08_V.bin",
-		"25131": "SC03_17_V.bin",
-		"25157": "SC05_00_V.bin",
-		"25158": "SC05_01_V.bin",
-		"25159": "SC05_02_V.bin",
-		"25160": "SC05_03_V.bin",
-		"25161": "SC05_04_V.bin",
-		"25162": "SC05_05_V.bin",
-		"25163": "SC05_06_V.bin",
-		"25164": "SC05_07_V.bin",
-		"25165": "SC05_08_V.bin",
-		"25168": "SC05_11_V.bin",
-		"25259": "SC05_00_S_KOR.bin",
-		"25260": "SC05_01_S_KOR.bin",
-		"25261": "SC05_02_S_KOR.bin",
-		"25262": "SC05_03_S_KOR.bin",
-		"25263": "SC05_04_S_KOR.bin",
-		"25264": "SC05_05_S_KOR.bin",
-		"25265": "SC05_06_S_KOR.bin",
-		"25266": "SC05_07_S_KOR.bin",
-		"25267": "SC05_08_S_KOR.bin",
-		"25270": "SC05_11_S_KOR.bin",
-		"25291": "SC00_11_B.bin",
-		"25292": "SC00_12_B.bin",
-		"25295": "SC01_02_B.bin",
-		"25296": "SC01_03_B.bin",
-		"25297": "SC01_04_B.bin",
-		"25301": "SC01_08_B.bin",
-		"25304": "SC01_11_B.bin",
-		"25312": "SC02_01_B.bin",
-		"25313": "SC02_02_B.bin",
-		"25315": "SC02_04_B.bin",
-		"25316": "SC02_05_B.bin",
-		"25361": "SC05_00_B.bin",
-		"25362": "SC05_01_B.bin",
-		"25363": "SC05_02_B.bin",
-		"25364": "SC05_03_B.bin",
-		"25365": "SC05_04_B.bin",
-		"25366": "SC05_05_B.bin",
-		"25367": "SC05_06_B.bin",
-		"25368": "SC05_07_B.bin",
-		"25369": "SC05_08_B.bin",
-		"25372": "SC05_11_B.bin",
-		"25384": "LO00_02_VMes_str.bin",
-		"25385": "LO00_03_VMes_str.bin",
-		"25389": "LO00_07_VMes_str.bin",
-		"25392": "LO00_10_VMes_str.bin",
-		"25394": "LO00_12_VMes_str.bin",
-		"25397": "LO02_03_VMes_str.bin",
-		"25407": "LO03_07_VMes_str.bin",
-		"25413": "LO04_05_VMes_str.bin",
-		"25414": "LO04_06_VMes_str.bin",
-		"25489": "LO00_03_AMes_str.bin",
-		"25493": "LO00_07_AMes_str.bin",
-		"25501": "LO02_03_AMes_str.bin",
-		"25517": "LO04_05_AMes_str.bin",
-		"25596": "LO00_06_SMes_str.bin",
-		"25923": "TEXT_TALK_EV00_143.bin",
-		"25977": "TEXT_TALK_EV01_055.bin",
-		"26225": "TEXT_TALK_SE00_022_20.bin",
-		"26960": "SC05_00_V.bin",
-		"26961": "SC05_01_V.bin",
-		"26962": "SC05_02_V.bin",
-		"26963": "SC05_03_V.bin",
-		"26964": "SC05_04_V.bin",
-		"26965": "SC05_05_V.bin",
-		"26966": "SC05_06_V.bin",
-		"26967": "SC05_07_V.bin",
-		"26968": "SC05_08_V.bin",
-		"26971": "SC05_11_V.bin",
-		"27014": "SC02_02_S_TWN.bin",
-		"27062": "SC05_00_S_TWN.bin",
-		"27063": "SC05_01_S_TWN.bin",
-		"27064": "SC05_02_S_TWN.bin",
-		"27065": "SC05_03_S_TWN.bin",
-		"27066": "SC05_04_S_TWN.bin",
-		"27067": "SC05_05_S_TWN.bin",
-		"27068": "SC05_06_S_TWN.bin",
-		"27069": "SC05_07_S_TWN.bin",
-		"27070": "SC05_08_S_TWN.bin",
-		"27073": "SC05_11_S_TWN.bin",
-		"27094": "SC00_11_B.bin",
-		"27095": "SC00_12_B.bin",
-		"27098": "SC01_02_B.bin",
-		"27099": "SC01_03_B.bin",
-		"27100": "SC01_04_B.bin",
-		"27104": "SC01_08_B.bin",
-		"27107": "SC01_11_B.bin",
-		"27115": "SC02_01_B.bin",
-		"27116": "SC02_02_B.bin",
-		"27118": "SC02_04_B.bin",
-		"27119": "SC02_05_B.bin",
-		"27164": "SC05_00_B.bin",
-		"27165": "SC05_01_B.bin",
-		"27166": "SC05_02_B.bin",
-		"27167": "SC05_03_B.bin",
-		"27168": "SC05_04_B.bin",
-		"27169": "SC05_05_B.bin",
-		"27170": "SC05_06_B.bin",
-		"27171": "SC05_07_B.bin",
-		"27172": "SC05_08_B.bin",
-		"27175": "SC05_11_B.bin",
-		"27200": "LO02_03_VMes_str.bin",
-		"27210": "LO03_07_VMes_str.bin",
-		"27304": "LO02_03_AMes_str.bin",
-		"27399": "LO00_06_SMes_str.bin",
-		"27726": "TEXT_TALK_EV00_143.bin",
-		"27780": "TEXT_TALK_EV01_055.bin",
-		"28028": "TEXT_TALK_SE00_022_20.bin",
-		"28763": "SC05_00_V.bin",
-		"28764": "SC05_01_V.bin",
-		"28765": "SC05_02_V.bin",
-		"28766": "SC05_03_V.bin",
-		"28767": "SC05_04_V.bin",
-		"28768": "SC05_05_V.bin",
-		"28769": "SC05_06_V.bin",
-		"28770": "SC05_07_V.bin",
-		"28771": "SC05_08_V.bin",
-		"28774": "SC05_11_V.bin",
-		"28817": "SC02_02_S_CHN.bin",
-		"28865": "SC05_00_S_CHN.bin",
-		"28866": "SC05_01_S_CHN.bin",
-		"28867": "SC05_02_S_CHN.bin",
-		"28868": "SC05_03_S_CHN.bin",
-		"28869": "SC05_04_S_CHN.bin",
-		"28870": "SC05_05_S_CHN.bin",
-		"28871": "SC05_06_S_CHN.bin",
-		"28872": "SC05_07_S_CHN.bin",
-		"28873": "SC05_08_S_CHN.bin",
-		"28876": "SC05_11_S_CHN.bin",
-		"28897": "SC00_11_B.bin",
-		"28898": "SC00_12_B.bin",
-		"28901": "SC01_02_B.bin",
-		"28902": "SC01_03_B.bin",
-		"28903": "SC01_04_B.bin",
-		"28907": "SC01_08_B.bin",
-		"28910": "SC01_11_B.bin",
-		"28918": "SC02_01_B.bin",
-		"28919": "SC02_02_B.bin",
-		"28921": "SC02_04_B.bin",
-		"28922": "SC02_05_B.bin",
-		"28967": "SC05_00_B.bin",
-		"28968": "SC05_01_B.bin",
-		"28969": "SC05_02_B.bin",
-		"28970": "SC05_03_B.bin",
-		"28971": "SC05_04_B.bin",
-		"28972": "SC05_05_B.bin",
-		"28973": "SC05_06_B.bin",
-		"28974": "SC05_07_B.bin",
-		"28975": "SC05_08_B.bin",
-		"28978": "SC05_11_B.bin",
-		"29003": "LO02_03_VMes_str.bin",
-		"29013": "LO03_07_VMes_str.bin",
-		"29107": "LO02_03_AMes_str.bin",
-		"29202": "LO00_06_SMes_str.bin",
-		"29491": "MV_N_011_FRA_E_VJ.bin",
-		"29509": "MV_N_011_FRA_E_VE.bin",
-		"29527": "MV_N_011_FRA_U_VJ.bin",
-		"29545": "MV_N_011_FRA_U_VE.bin",
-		"30097": "MV01_03_FRA_E_VJ.bin",
-		"30105": "MV02_02_FRA_E_VJ.bin",
-		"30128": "MV01_03_FRA_E_VE.bin",
-		"30136": "MV02_02_FRA_E_VE.bin",
-		"30159": "MV01_03_FRA_U_VJ.bin",
-		"30167": "MV02_02_FRA_U_VJ.bin",
-		"30190": "MV01_03_FRA_U_VE.bin",
-		"30198": "MV02_02_FRA_U_VE.bin",
-		"30798": "title_cursor_move.arc",
-		"30828": "GlobalConfig.ktsl2gcbin.gz",
-		"30946": "AV_009_001.ktsl2asbin.gz",
-		"31000": "MOV_EN.ktsl2asbin.gz",
-		"31001": "EV_EN_ext.ktsl2asbin.gz",
-		"31002": "SE_EN_ext.ktsl2asbin.gz",
-		"31004": "LO_EN_ext.ktsl2asbin.gz",
-		"31005": "SC_EN_ext.ktsl2asbin.gz",
-		"31006": "SV_EN_ext.ktsl2asbin.gz",
-		"31010": "AV_000_000_EN.ktsl2asbin.gz",
-		"31097": "AV_000_001_EN.ktsl2asbin.gz"
-	}
-}
+[
+ {
+  "idx": 0,
+  "filename": "msgdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 1,
+  "filename": "scrdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 2,
+  "filename": "gwscrdata.bin",
+  "patch": 1
+ },
+ {
+  "idx": 3,
+  "filename": "tuscrdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4,
+  "filename": "btlscrdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6,
+  "filename": "fixed_data.bin",
+  "patch": 4
+ },
+ {
+  "idx": 7,
+  "filename": "fixed_flow.bin",
+  "patch": 4
+ },
+ {
+  "idx": 9,
+  "filename": "fixed_growthdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10,
+  "filename": "fixed_stagedata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 11,
+  "filename": "fixed_classdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12,
+  "filename": "fixed_persondata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 13,
+  "filename": "fixed_act_data.bin",
+  "patch": 4
+ },
+ {
+  "idx": 15,
+  "filename": "fixed_skill.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16,
+  "filename": "fixed_gimmick.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17,
+  "filename": "fixed_spotdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18,
+  "filename": "fixed_warpdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19,
+  "filename": "fixed_areadata.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20,
+  "filename": "fixed_castle_regon_data.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21,
+  "filename": "fixed_stageenvinfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 22,
+  "filename": "fixed_scenario.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23,
+  "filename": "fixed_freescenariodata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24,
+  "filename": "fixed_lobby_common.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25,
+  "filename": "fixed_lobby_quest.bin",
+  "patch": 4
+ },
+ {
+  "idx": 26,
+  "filename": "fixed_lobby_activity.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27,
+  "filename": "fixed_groupworkdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28,
+  "filename": "fixed_presentdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 29,
+  "filename": "fixed_questiondata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 30,
+  "filename": "fixed_shopdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 31,
+  "filename": "fixed_materialdata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 32,
+  "filename": "fixed_cut_in.bin",
+  "patch": 4
+ },
+ {
+  "idx": 34,
+  "filename": "fixed_onlinedata.bin",
+  "patch": 4
+ },
+ {
+  "idx": 35,
+  "filename": "fixed_calendardata.bin",
+  "patch": 3
+ },
+ {
+  "idx": 36,
+  "filename": "fixed_tutorial.bin",
+  "patch": 4
+ },
+ {
+  "idx": 38,
+  "filename": "fixed_gallery.bin",
+  "patch": 4
+ },
+ {
+  "idx": 39,
+  "filename": "person_monitor0.bin",
+  "patch": 3
+ },
+ {
+  "idx": 40,
+  "filename": "person_monitor1.bin",
+  "patch": 4
+ },
+ {
+  "idx": 41,
+  "filename": "person_monitor2.bin",
+  "patch": 4
+ },
+ {
+  "idx": 42,
+  "filename": "person_monitor3.bin",
+  "patch": 4
+ },
+ {
+  "idx": 43,
+  "filename": "TacticsCharge.bin",
+  "patch": 3
+ },
+ {
+  "idx": 44,
+  "filename": "TacticsChargeKnight.bin",
+  "patch": 3
+ },
+ {
+  "idx": 45,
+  "filename": "TacticsChargeArmour.bin",
+  "patch": 2
+ },
+ {
+  "idx": 46,
+  "filename": "TacticsChargeFlying.bin",
+  "patch": 2
+ },
+ {
+  "idx": 47,
+  "filename": "TacticsArrow.bin",
+  "patch": 3
+ },
+ {
+  "idx": 50,
+  "filename": "TacticsArrowFlying.bin",
+  "patch": 3
+ },
+ {
+  "idx": 59,
+  "filename": "TacticsMagic.bin",
+  "patch": 4
+ },
+ {
+  "idx": 61,
+  "filename": "TacticsTo_Ally.bin",
+  "patch": 3
+ },
+ {
+  "idx": 62,
+  "filename": "TacticsMagic_Support.bin",
+  "patch": 3
+ },
+ {
+  "idx": 64,
+  "filename": "KBCamera.bin",
+  "patch": 4
+ },
+ {
+  "idx": 68,
+  "filename": "Credit.bin",
+  "patch": 4
+ },
+ {
+  "idx": 71,
+  "filename": "font00_JPN.g1t.gz",
+  "patch": 4
+ },
+ {
+  "idx": 73,
+  "filename": "font02_CHN.g1t.gz",
+  "patch": 4
+ },
+ {
+  "idx": 76,
+  "filename": "UTF8TBL_JPN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 79,
+  "filename": "UTF8TBL_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 82,
+  "filename": "UTF8TBL_CNF.bin",
+  "patch": 4
+ },
+ {
+  "idx": 101,
+  "filename": "SC00_09.bai",
+  "patch": 2
+ },
+ {
+  "idx": 102,
+  "filename": "SC00_09.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 103,
+  "filename": "SC00_10.bai",
+  "patch": 3
+ },
+ {
+  "idx": 104,
+  "filename": "SC00_10.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 105,
+  "filename": "SC00_11.bai",
+  "patch": 4
+ },
+ {
+  "idx": 106,
+  "filename": "SC00_11.bsi",
+  "patch": 4
+ },
+ {
+  "idx": 111,
+  "filename": "SC01_01.bai",
+  "patch": 4
+ },
+ {
+  "idx": 112,
+  "filename": "SC01_01.bsi",
+  "patch": 4
+ },
+ {
+  "idx": 113,
+  "filename": "SC01_02.bai",
+  "patch": 2
+ },
+ {
+  "idx": 114,
+  "filename": "SC01_02.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 115,
+  "filename": "SC01_03.bai",
+  "patch": 2
+ },
+ {
+  "idx": 116,
+  "filename": "SC01_03.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 117,
+  "filename": "SC01_04.bai",
+  "patch": 3
+ },
+ {
+  "idx": 118,
+  "filename": "SC01_04.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 127,
+  "filename": "SC01_09.bai",
+  "patch": 1
+ },
+ {
+  "idx": 128,
+  "filename": "SC01_09.bsi",
+  "patch": 1
+ },
+ {
+  "idx": 131,
+  "filename": "SC01_11.bai",
+  "patch": 4
+ },
+ {
+  "idx": 132,
+  "filename": "SC01_11.bsi",
+  "patch": 4
+ },
+ {
+  "idx": 149,
+  "filename": "SC02_02.bai",
+  "patch": 3
+ },
+ {
+  "idx": 150,
+  "filename": "SC02_02.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 151,
+  "filename": "SC02_03.bai",
+  "patch": 2
+ },
+ {
+  "idx": 152,
+  "filename": "SC02_03.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 154,
+  "filename": "SC02_04.bsi",
+  "patch": 1
+ },
+ {
+  "idx": 156,
+  "filename": "SC02_05.bsi",
+  "patch": 1
+ },
+ {
+  "idx": 157,
+  "filename": "SC02_06.bai",
+  "patch": 3
+ },
+ {
+  "idx": 158,
+  "filename": "SC02_06.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 173,
+  "filename": "SC03_07.bai",
+  "patch": 3
+ },
+ {
+  "idx": 174,
+  "filename": "SC03_07.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 180,
+  "filename": "SC03_10.bsi",
+  "patch": 1
+ },
+ {
+  "idx": 189,
+  "filename": "SC03_15.bai",
+  "patch": 2
+ },
+ {
+  "idx": 190,
+  "filename": "SC03_15.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 197,
+  "filename": "SC03_19.bai",
+  "patch": 1
+ },
+ {
+  "idx": 206,
+  "filename": "SC04_00.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 208,
+  "filename": "SC04_01.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 210,
+  "filename": "SC04_02.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 212,
+  "filename": "SC04_03.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 214,
+  "filename": "SC04_04.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 216,
+  "filename": "SC04_05.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 218,
+  "filename": "SC04_06.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 220,
+  "filename": "SC04_07.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 222,
+  "filename": "SC04_08.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 224,
+  "filename": "SC04_09.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 226,
+  "filename": "SC04_10.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 228,
+  "filename": "SC04_11.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 230,
+  "filename": "SC04_12.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 232,
+  "filename": "SC04_13.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 234,
+  "filename": "SC04_14.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 236,
+  "filename": "SC04_15.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 238,
+  "filename": "SC04_16.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 240,
+  "filename": "SC04_17.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 242,
+  "filename": "SC04_18.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 244,
+  "filename": "SC04_19.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 256,
+  "filename": "LO00_00_00.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 266,
+  "filename": "LO00_05.bsi",
+  "patch": 1
+ },
+ {
+  "idx": 274,
+  "filename": "LO00_09.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 286,
+  "filename": "LO02_03.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 289,
+  "filename": "LO02_05.bai",
+  "patch": 4
+ },
+ {
+  "idx": 290,
+  "filename": "LO02_05.bsi",
+  "patch": 4
+ },
+ {
+  "idx": 315,
+  "filename": "LO04_04.bai",
+  "patch": 1
+ },
+ {
+  "idx": 347,
+  "filename": "LO07_00.bai",
+  "patch": 3
+ },
+ {
+  "idx": 348,
+  "filename": "LO07_00.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 349,
+  "filename": "LO07_01.bai",
+  "patch": 3
+ },
+ {
+  "idx": 350,
+  "filename": "LO07_01.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 353,
+  "filename": "LO07_03.bai",
+  "patch": 3
+ },
+ {
+  "idx": 354,
+  "filename": "LO07_03.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 355,
+  "filename": "LO07_04.bai",
+  "patch": 3
+ },
+ {
+  "idx": 356,
+  "filename": "LO07_04.bsi",
+  "patch": 3
+ },
+ {
+  "idx": 360,
+  "filename": "LO08_00.bsi",
+  "patch": 2
+ },
+ {
+  "idx": 361,
+  "filename": "LO08_01.bai",
+  "patch": 4
+ },
+ {
+  "idx": 362,
+  "filename": "LO08_01.bsi",
+  "patch": 4
+ },
+ {
+  "idx": 440,
+  "filename": "OL.spkg",
+  "patch": 4
+ },
+ {
+  "idx": 441,
+  "filename": "OL_C.spkg",
+  "patch": 4
+ },
+ {
+  "idx": 456,
+  "filename": "PBB_AIra3hNWtd.spkg",
+  "patch": 1
+ },
+ {
+  "idx": 466,
+  "filename": "PBB_AIra3hN.spkg",
+  "patch": 4
+ },
+ {
+  "idx": 481,
+  "filename": "PBB_Ira3.spkg",
+  "patch": 1
+ },
+ {
+  "idx": 482,
+  "filename": "PBB_CIra3.spkg",
+  "patch": 1
+ },
+ {
+  "idx": 590,
+  "filename": "S032-Info.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 618,
+  "filename": "S060-Info.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 619,
+  "filename": "S061-Info.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 789,
+  "filename": "S010-ObjInfo.bin.gz",
+  "patch": 1
+ },
+ {
+  "idx": 799,
+  "filename": "S020-ObjInfo.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 2422,
+  "filename": "S031-Terrain.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 2924,
+  "filename": "S018-CollisionInfo.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3112,
+  "filename": "StageGimmickMotion.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3122,
+  "filename": "MC002_EdelgardA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3130,
+  "filename": "MC006_FerdinandA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3167,
+  "filename": "MC024_HildaB_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3168,
+  "filename": "MC025_LeonieA_0_P_Body.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 3174,
+  "filename": "MC030_GilbertA_0_P_Body.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3176,
+  "filename": "MC032_CatherineA_0_P_Body.bin.gz",
+  "patch": 1
+ },
+ {
+  "idx": 3230,
+  "filename": "MC049_JeritzaA_PC_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3231,
+  "filename": "MC042_DeathKnightA_PC_0_P_Body.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3232,
+  "filename": "MC048_AnnaA_PC_0_P_Body.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3233,
+  "filename": "MC100_UlysseA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3234,
+  "filename": "MC100_UlysseB_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3235,
+  "filename": "MC101_BalthasarA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3236,
+  "filename": "MC101_BalthasarB_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3237,
+  "filename": "MC102_ConstanzeA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3238,
+  "filename": "MC102_ConstanzeB_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3239,
+  "filename": "MC103_HapyA_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3240,
+  "filename": "MC103_HapyB_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3258,
+  "filename": "MU006_LoadM_0_P_Body.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3268,
+  "filename": "MU011_BrigandM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3272,
+  "filename": "MU013_GladiatorM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3278,
+  "filename": "MU017_BraveM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3280,
+  "filename": "MU018_SwordMasterF_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3281,
+  "filename": "MU019_AssassinM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3282,
+  "filename": "MU019_AssassinF_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3283,
+  "filename": "MU020_FortressM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3290,
+  "filename": "MU024_WarriorM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3291,
+  "filename": "MU024_WarriorF_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3292,
+  "filename": "MU025_SniperM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3294,
+  "filename": "MU026_GrapplerM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3295,
+  "filename": "MU027_WarlockM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3296,
+  "filename": "MU027_WarlockF_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3307,
+  "filename": "MU034_BowKnightM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3319,
+  "filename": "MU042_DancerF_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3323,
+  "filename": "MU042_DancerM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3467,
+  "filename": "MO007_MobM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3471,
+  "filename": "MO011_MobM_0_P_Body.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3473,
+  "filename": "MO013_MobM_0_P_Body.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 3662,
+  "filename": "MC022_LysitheaA_0_P_Face.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3663,
+  "filename": "MC022_LysitheaB_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3667,
+  "filename": "MC024_HildaB_0_P_Face.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3668,
+  "filename": "MC025_LeonieA_0_P_Face.bin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 3681,
+  "filename": "MC049_JeritzaA_PC_0_P_Face.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3682,
+  "filename": "MC049_JeritzaA_PC_0_P_AwakeFace.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3683,
+  "filename": "MC048_AnnaA_PC_0_P_Face.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 3684,
+  "filename": "MC100_UlysseA_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3685,
+  "filename": "MC100_UlysseB_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3686,
+  "filename": "MC101_BalthasarA_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3687,
+  "filename": "MC101_BalthasarB_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3688,
+  "filename": "MC102_ConstanzeA_0_P_Face00.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3689,
+  "filename": "MC102_ConstanzeB_0_P_Face00.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3690,
+  "filename": "MO000_FaceM00_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3692,
+  "filename": "MO002_FaceM02_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3694,
+  "filename": "MO004_FaceM04_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3695,
+  "filename": "MO005_FaceM05_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3699,
+  "filename": "MO009_FaceF09_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3700,
+  "filename": "MO010_FaceF10_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3701,
+  "filename": "MO011_FaceF11_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3718,
+  "filename": "MC103_HapyA_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3719,
+  "filename": "MC103_HapyB_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3723,
+  "filename": "MO028_FaceM28_0_P_Face.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3838,
+  "filename": "MW100_Knuckle010_0.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 3949,
+  "filename": "MT011_Sweets_0.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 4271,
+  "filename": "KB_M18_0.bin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 4622,
+  "filename": "KB_L_100_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4623,
+  "filename": "KB_L_200_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4624,
+  "filename": "KB_L_300_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4625,
+  "filename": "KB_L_500_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4626,
+  "filename": "KB_L_600_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4628,
+  "filename": "KB_L_300_R_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4629,
+  "filename": "KB_L_500_R_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4630,
+  "filename": "KB_L_600_R_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 4632,
+  "filename": "BC_PACK.bin",
+  "patch": 4
+ },
+ {
+  "idx": 5913,
+  "filename": "fix.bin.gz",
+  "patch": 4
+ },
+ {
+  "idx": 5916,
+  "filename": "100_bmap.bin",
+  "patch": 4
+ },
+ {
+  "idx": 5917,
+  "filename": "200_magic.bin",
+  "patch": 4
+ },
+ {
+  "idx": 5920,
+  "filename": "600_title.bin",
+  "patch": 2
+ },
+ {
+  "idx": 5926,
+  "filename": "EffS004.bin",
+  "patch": 3
+ },
+ {
+  "idx": 6022,
+  "filename": "EffS100.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6038,
+  "filename": "200_title.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6039,
+  "filename": "200_title_ENG_U.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6040,
+  "filename": "200_title_ENG_E.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6041,
+  "filename": "200_title_GER.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6042,
+  "filename": "200_title_FRA_E.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6043,
+  "filename": "200_title_FRA_U.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6044,
+  "filename": "200_title_ESP_E.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6045,
+  "filename": "200_title_ESP_U.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6046,
+  "filename": "200_title_ITA.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6047,
+  "filename": "200_title_KOR.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6048,
+  "filename": "200_title_TWN.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6049,
+  "filename": "200_title_CHN.g1t.gz",
+  "patch": 2
+ },
+ {
+  "idx": 6062,
+  "filename": "400_abbey.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6063,
+  "filename": "400_abbey_ENG_U.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6064,
+  "filename": "400_abbey_ENG_E.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6065,
+  "filename": "400_abbey_GER.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6066,
+  "filename": "400_abbey_FRA_E.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6067,
+  "filename": "400_abbey_FRA_U.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6068,
+  "filename": "400_abbey_ESP_E.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6069,
+  "filename": "400_abbey_ESP_U.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6070,
+  "filename": "400_abbey_ITA.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6071,
+  "filename": "400_abbey_KOR.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6072,
+  "filename": "400_abbey_TWN.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6073,
+  "filename": "400_abbey_CHN.g1t.gz",
+  "patch": 3
+ },
+ {
+  "idx": 6074,
+  "filename": "401_abbey_minimap.g1t.gz",
+  "patch": 4
+ },
+ {
+  "idx": 6122,
+  "filename": "minimap.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6143,
+  "filename": "still_castle.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6145,
+  "filename": "still_event.bin",
+  "patch": 1
+ },
+ {
+  "idx": 6159,
+  "filename": "IN_GeneralCameraInfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6162,
+  "filename": "IN_FixedCameraInfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6163,
+  "filename": "IN_EventBaseInfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6164,
+  "filename": "IN_CubeStageBaseInfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6165,
+  "filename": "IN_CubeStageChangeInfo.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6348,
+  "filename": "TALK_EV00_007.bin",
+  "patch": 1
+ },
+ {
+  "idx": 6382,
+  "filename": "TALK_EV00_041.bin",
+  "patch": 2
+ },
+ {
+  "idx": 6443,
+  "filename": "TALK_EV00_102.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6484,
+  "filename": "TALK_EV00_143.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6538,
+  "filename": "TALK_EV01_055.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6553,
+  "filename": "TALK_EV01_070.bin",
+  "patch": 3
+ },
+ {
+  "idx": 6565,
+  "filename": "TALK_EV01_082.bin",
+  "patch": 4
+ },
+ {
+  "idx": 6629,
+  "filename": "TALK_EV03_008.bin",
+  "patch": 3
+ },
+ {
+  "idx": 6659,
+  "filename": "TALK_EV03_038.bin",
+  "patch": 3
+ },
+ {
+  "idx": 6722,
+  "filename": "TALK_SE00_009_30.bin",
+  "patch": 3
+ },
+ {
+  "idx": 6786,
+  "filename": "TALK_SE00_022_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27726,
+  "filename": "TEXT_TALK_EV00_143.bin",
+  "patch": 4
+ },
+ {
+  "idx": 7631,
+  "filename": "TEXT_TALK_EV01_049.bin",
+  "patch": 2
+ },
+ {
+  "idx": 27780,
+  "filename": "TEXT_TALK_EV01_055.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28028,
+  "filename": "TEXT_TALK_SE00_022_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 7970,
+  "filename": "TEXT_TALK_SE01_010_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8355,
+  "filename": "TEXT_TALK_SE01_143_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 8556,
+  "filename": "SC01_04_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8572,
+  "filename": "SC02_02_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 23309,
+  "filename": "SC02_05_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 28763,
+  "filename": "SC05_00_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28764,
+  "filename": "SC05_01_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28765,
+  "filename": "SC05_02_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28766,
+  "filename": "SC05_03_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28767,
+  "filename": "SC05_04_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28768,
+  "filename": "SC05_05_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28769,
+  "filename": "SC05_06_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28770,
+  "filename": "SC05_07_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28771,
+  "filename": "SC05_08_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28774,
+  "filename": "SC05_11_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8658,
+  "filename": "SC01_04_S.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8674,
+  "filename": "SC02_02_S.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8677,
+  "filename": "SC02_05_S.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8722,
+  "filename": "SC05_00_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8723,
+  "filename": "SC05_01_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8724,
+  "filename": "SC05_02_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8725,
+  "filename": "SC05_03_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8726,
+  "filename": "SC05_04_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8727,
+  "filename": "SC05_05_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8728,
+  "filename": "SC05_06_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8729,
+  "filename": "SC05_07_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8730,
+  "filename": "SC05_08_S.bin",
+  "patch": 4
+ },
+ {
+  "idx": 8733,
+  "filename": "SC05_11_S.bin",
+  "patch": 3
+ },
+ {
+  "idx": 28897,
+  "filename": "SC00_11_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28898,
+  "filename": "SC00_12_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28901,
+  "filename": "SC01_02_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28902,
+  "filename": "SC01_03_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28903,
+  "filename": "SC01_04_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28907,
+  "filename": "SC01_08_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28910,
+  "filename": "SC01_11_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28918,
+  "filename": "SC02_01_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28919,
+  "filename": "SC02_02_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28921,
+  "filename": "SC02_04_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28922,
+  "filename": "SC02_05_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28967,
+  "filename": "SC05_00_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28968,
+  "filename": "SC05_01_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28969,
+  "filename": "SC05_02_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28970,
+  "filename": "SC05_03_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28971,
+  "filename": "SC05_04_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28972,
+  "filename": "SC05_05_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28973,
+  "filename": "SC05_06_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28974,
+  "filename": "SC05_07_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28975,
+  "filename": "SC05_08_B.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28978,
+  "filename": "SC05_11_B.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8856,
+  "filename": "SC00_11_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8857,
+  "filename": "SC00_12_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8860,
+  "filename": "SC01_02_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8861,
+  "filename": "SC01_03_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8866,
+  "filename": "SC01_08_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8869,
+  "filename": "SC01_11_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8876,
+  "filename": "SC02_00_B.dat",
+  "patch": 3
+ },
+ {
+  "idx": 8877,
+  "filename": "SC02_01_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8878,
+  "filename": "SC02_02_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8880,
+  "filename": "SC02_04_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8881,
+  "filename": "SC02_05_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8926,
+  "filename": "SC05_00_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8927,
+  "filename": "SC05_01_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8928,
+  "filename": "SC05_02_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8929,
+  "filename": "SC05_03_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8930,
+  "filename": "SC05_04_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8931,
+  "filename": "SC05_05_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8932,
+  "filename": "SC05_06_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8933,
+  "filename": "SC05_07_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8934,
+  "filename": "SC05_08_B.dat",
+  "patch": 4
+ },
+ {
+  "idx": 8937,
+  "filename": "SC05_11_B.dat",
+  "patch": 3
+ },
+ {
+  "idx": 18179,
+  "filename": "LO00_09_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 29003,
+  "filename": "LO02_03_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 8964,
+  "filename": "LO02_05_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 29013,
+  "filename": "LO03_07_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 9047,
+  "filename": "LO08_00_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 9062,
+  "filename": "LO00_11_VMes_param.dat",
+  "patch": 4
+ },
+ {
+  "idx": 9063,
+  "filename": "LO00_12_VMes_param.dat",
+  "patch": 2
+ },
+ {
+  "idx": 9066,
+  "filename": "LO02_03_VMes_param.dat",
+  "patch": 3
+ },
+ {
+  "idx": 9068,
+  "filename": "LO02_05_VMes_param.dat",
+  "patch": 4
+ },
+ {
+  "idx": 29107,
+  "filename": "LO02_03_AMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 9274,
+  "filename": "LO02_03_AMes_param.dat",
+  "patch": 3
+ },
+ {
+  "idx": 29202,
+  "filename": "LO00_06_SMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 22273,
+  "filename": "TEXT_TALK_EV00_099.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22276,
+  "filename": "TEXT_TALK_EV00_102.bin",
+  "patch": 4
+ },
+ {
+  "idx": 11517,
+  "filename": "TEXT_TALK_EV01_018.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22398,
+  "filename": "TEXT_TALK_EV01_082.bin",
+  "patch": 4
+ },
+ {
+  "idx": 11649,
+  "filename": "TEXT_TALK_EV03_013.bin",
+  "patch": 2
+ },
+ {
+  "idx": 11679,
+  "filename": "TEXT_TALK_EV03_043.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22553,
+  "filename": "TEXT_TALK_SE00_009_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 11759,
+  "filename": "TEXT_TALK_SE00_14_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 11778,
+  "filename": "TEXT_TALK_SE00_017_40.bin",
+  "patch": 3
+ },
+ {
+  "idx": 11820,
+  "filename": "TEXT_TALK_SE00_026_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 17237,
+  "filename": "TEXT_TALK_SE00_028_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 11829,
+  "filename": "TEXT_TALK_SE00_028_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22690,
+  "filename": "TEXT_TALK_SE01_005_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 11891,
+  "filename": "TEXT_TALK_SE01_012_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17310,
+  "filename": "TEXT_TALK_SE01_016_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22753,
+  "filename": "TEXT_TALK_SE01_026_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 12054,
+  "filename": "TEXT_TALK_SE01_065_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 12144,
+  "filename": "TEXT_TALK_SE01_095_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 22967,
+  "filename": "TEXT_TALK_SE01_097_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 23003,
+  "filename": "TEXT_TALK_SE01_109_20.bin",
+  "patch": 2
+ },
+ {
+  "idx": 23027,
+  "filename": "TEXT_TALK_SE01_117_21.bin",
+  "patch": 2
+ },
+ {
+  "idx": 12274,
+  "filename": "TEXT_TALK_SE01_143_20.bin",
+  "patch": 2
+ },
+ {
+  "idx": 23216,
+  "filename": "TEXT_TALK_SE01_184_20.bin",
+  "patch": 2
+ },
+ {
+  "idx": 12481,
+  "filename": "SC01_13_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 10787,
+  "filename": "SC02_02_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10835,
+  "filename": "SC05_00_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10836,
+  "filename": "SC05_01_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10837,
+  "filename": "SC05_02_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10838,
+  "filename": "SC05_03_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10839,
+  "filename": "SC05_04_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10840,
+  "filename": "SC05_05_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10841,
+  "filename": "SC05_06_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10842,
+  "filename": "SC05_07_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10843,
+  "filename": "SC05_08_S_ENG_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 10846,
+  "filename": "SC05_11_S_ENG_U.bin",
+  "patch": 3
+ },
+ {
+  "idx": 23580,
+  "filename": "LO00_01_VMes_str.bin",
+  "patch": 2
+ },
+ {
+  "idx": 12766,
+  "filename": "LO00_05_VMes_str.bin",
+  "patch": 2
+ },
+ {
+  "idx": 23590,
+  "filename": "LO00_11_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12795,
+  "filename": "LO04_08_VMes_str.bin",
+  "patch": 1
+ },
+ {
+  "idx": 12803,
+  "filename": "LO05_08_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 12590,
+  "filename": "SC02_02_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12638,
+  "filename": "SC05_00_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12639,
+  "filename": "SC05_01_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12640,
+  "filename": "SC05_02_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12641,
+  "filename": "SC05_03_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12642,
+  "filename": "SC05_04_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12643,
+  "filename": "SC05_05_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12644,
+  "filename": "SC05_06_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12645,
+  "filename": "SC05_07_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12646,
+  "filename": "SC05_08_S_ENG_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 12649,
+  "filename": "SC05_11_S_ENG_E.bin",
+  "patch": 3
+ },
+ {
+  "idx": 13680,
+  "filename": "TEXT_TALK_SE01_007_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 13779,
+  "filename": "TEXT_TALK_SE01_039_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 13840,
+  "filename": "TEXT_TALK_SE01_060_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 14393,
+  "filename": "SC02_02_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14441,
+  "filename": "SC05_00_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14442,
+  "filename": "SC05_01_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14443,
+  "filename": "SC05_02_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14444,
+  "filename": "SC05_03_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14445,
+  "filename": "SC05_04_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14446,
+  "filename": "SC05_05_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14447,
+  "filename": "SC05_06_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14448,
+  "filename": "SC05_07_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14449,
+  "filename": "SC05_08_S_GER.bin",
+  "patch": 4
+ },
+ {
+  "idx": 14452,
+  "filename": "SC05_11_S_GER.bin",
+  "patch": 3
+ },
+ {
+  "idx": 14670,
+  "filename": "LO00_02_AMes_str.bin",
+  "patch": 2
+ },
+ {
+  "idx": 16855,
+  "filename": "TEXT_TALK_EV00_090.bin",
+  "patch": 1
+ },
+ {
+  "idx": 16856,
+  "filename": "TEXT_TALK_EV00_091.bin",
+  "patch": 1
+ },
+ {
+  "idx": 16857,
+  "filename": "TEXT_TALK_EV00_092.bin",
+  "patch": 1
+ },
+ {
+  "idx": 16858,
+  "filename": "TEXT_TALK_EV00_093.bin",
+  "patch": 1
+ },
+ {
+  "idx": 16886,
+  "filename": "TEXT_TALK_EV00_121.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16904,
+  "filename": "TEXT_TALK_EV00_139.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16964,
+  "filename": "TEXT_TALK_EV01_057.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17080,
+  "filename": "TEXT_TALK_EV03_035.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17089,
+  "filename": "TEXT_TALK_EV03_044.bin",
+  "patch": 1
+ },
+ {
+  "idx": 17090,
+  "filename": "TEXT_TALK_EV03_045.bin",
+  "patch": 1
+ },
+ {
+  "idx": 17164,
+  "filename": "TEXT_TALK_SE00_013_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17185,
+  "filename": "TEXT_TALK_SE00_017_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17190,
+  "filename": "TEXT_TALK_SE00_018_20.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17203,
+  "filename": "TEXT_TALK_SE00_021_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 24445,
+  "filename": "TEXT_TALK_SE00_027_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17243,
+  "filename": "TEXT_TALK_SE00_029_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17441,
+  "filename": "TEXT_TALK_SE01_058_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17464,
+  "filename": "TEXT_TALK_SE01_065_20.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17513,
+  "filename": "TEXT_TALK_SE01_081_21.bin",
+  "patch": 2
+ },
+ {
+  "idx": 17583,
+  "filename": "TEXT_TALK_SE01_106_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 17617,
+  "filename": "TEXT_TALK_SE01_117_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17620,
+  "filename": "TEXT_TALK_SE01_118_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17621,
+  "filename": "TEXT_TALK_SE01_118_20.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17625,
+  "filename": "TEXT_TALK_SE01_120_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17626,
+  "filename": "TEXT_TALK_SE01_120_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17634,
+  "filename": "TEXT_TALK_SE01_123_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17654,
+  "filename": "TEXT_TALK_SE01_132_00.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17675,
+  "filename": "TEXT_TALK_SE01_140_10.bin",
+  "patch": 2
+ },
+ {
+  "idx": 17723,
+  "filename": "TEXT_TALK_SE01_155_20.bin",
+  "patch": 2
+ },
+ {
+  "idx": 17752,
+  "filename": "TEXT_TALK_SE01_165_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17763,
+  "filename": "TEXT_TALK_SE01_168_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17785,
+  "filename": "TEXT_TALK_SE01_177_00.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17793,
+  "filename": "TEXT_TALK_SE01_180_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17822,
+  "filename": "TEXT_TALK_SE01_190_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17909,
+  "filename": "SC03_07_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 17913,
+  "filename": "SC03_11_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16196,
+  "filename": "SC02_02_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16244,
+  "filename": "SC05_00_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16245,
+  "filename": "SC05_01_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16246,
+  "filename": "SC05_02_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16247,
+  "filename": "SC05_03_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16248,
+  "filename": "SC05_04_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16249,
+  "filename": "SC05_05_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16250,
+  "filename": "SC05_06_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16251,
+  "filename": "SC05_07_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16252,
+  "filename": "SC05_08_S_FRA_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 16255,
+  "filename": "SC05_11_S_FRA_E.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21780,
+  "filename": "LO00_04_VMes_str.bin",
+  "patch": 2
+ },
+ {
+  "idx": 18176,
+  "filename": "LO00_06_VMes_str.bin",
+  "patch": 2
+ },
+ {
+  "idx": 25389,
+  "filename": "LO00_07_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25392,
+  "filename": "LO00_10_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21797,
+  "filename": "LO03_03_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18199,
+  "filename": "LO04_03_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 17999,
+  "filename": "SC02_02_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18047,
+  "filename": "SC05_00_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18048,
+  "filename": "SC05_01_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18049,
+  "filename": "SC05_02_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18050,
+  "filename": "SC05_03_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18051,
+  "filename": "SC05_04_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18052,
+  "filename": "SC05_05_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18053,
+  "filename": "SC05_06_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18054,
+  "filename": "SC05_07_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18055,
+  "filename": "SC05_08_S_FRA_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 18058,
+  "filename": "SC05_11_S_FRA_U.bin",
+  "patch": 3
+ },
+ {
+  "idx": 18614,
+  "filename": "TEXT_TALK_EV00_046.bin",
+  "patch": 2
+ },
+ {
+  "idx": 20443,
+  "filename": "TEXT_TALK_EV00_072.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20561,
+  "filename": "TEXT_TALK_EV01_048.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20684,
+  "filename": "TEXT_TALK_EV03_033.bin",
+  "patch": 2
+ },
+ {
+  "idx": 20716,
+  "filename": "TEXT_TALK_SE00_002_30.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20754,
+  "filename": "TEXT_TALK_SE00_010_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20778,
+  "filename": "TEXT_TALK_SE00_14_40.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20804,
+  "filename": "TEXT_TALK_SE00_020_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 20812,
+  "filename": "TEXT_TALK_SE00_021_30.bin",
+  "patch": 1
+ },
+ {
+  "idx": 20971,
+  "filename": "TEXT_TALK_SE01_033_000.bin",
+  "patch": 2
+ },
+ {
+  "idx": 20989,
+  "filename": "TEXT_TALK_SE01_038_20.bin",
+  "patch": 1
+ },
+ {
+  "idx": 21032,
+  "filename": "TEXT_TALK_SE01_053_20.bin",
+  "patch": 1
+ },
+ {
+  "idx": 21378,
+  "filename": "TEXT_TALK_SE01_172_00.bin",
+  "patch": 1
+ },
+ {
+  "idx": 21444,
+  "filename": "TEXT_TALK_SE01_196_00.bin",
+  "patch": 1
+ },
+ {
+  "idx": 21445,
+  "filename": "TEXT_TALK_SE01_196_10.bin",
+  "patch": 1
+ },
+ {
+  "idx": 19779,
+  "filename": "SC00_10_S_ESP_E.bin",
+  "patch": 1
+ },
+ {
+  "idx": 19802,
+  "filename": "SC02_02_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19850,
+  "filename": "SC05_00_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19851,
+  "filename": "SC05_01_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19852,
+  "filename": "SC05_02_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19853,
+  "filename": "SC05_03_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19854,
+  "filename": "SC05_04_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19855,
+  "filename": "SC05_05_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19856,
+  "filename": "SC05_06_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19857,
+  "filename": "SC05_07_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19858,
+  "filename": "SC05_08_S_ESP_E.bin",
+  "patch": 4
+ },
+ {
+  "idx": 19861,
+  "filename": "SC05_11_S_ESP_E.bin",
+  "patch": 3
+ },
+ {
+  "idx": 20389,
+  "filename": "TEXT_TALK_EV00_018.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21202,
+  "filename": "TEXT_TALK_SE01_110_00.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21392,
+  "filename": "TEXT_TALK_SE01_177_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21411,
+  "filename": "TEXT_TALK_SE01_184_00.bin",
+  "patch": 2
+ },
+ {
+  "idx": 21582,
+  "filename": "SC00_10_S_ESP_U.bin",
+  "patch": 1
+ },
+ {
+  "idx": 21605,
+  "filename": "SC02_02_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21653,
+  "filename": "SC05_00_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21654,
+  "filename": "SC05_01_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21655,
+  "filename": "SC05_02_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21656,
+  "filename": "SC05_03_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21657,
+  "filename": "SC05_04_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21658,
+  "filename": "SC05_05_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21659,
+  "filename": "SC05_06_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21660,
+  "filename": "SC05_07_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21661,
+  "filename": "SC05_08_S_ESP_U.bin",
+  "patch": 4
+ },
+ {
+  "idx": 21664,
+  "filename": "SC05_11_S_ESP_U.bin",
+  "patch": 3
+ },
+ {
+  "idx": 21813,
+  "filename": "LO05_03_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 23382,
+  "filename": "SC00_07_S_ITA.bin",
+  "patch": 1
+ },
+ {
+  "idx": 23408,
+  "filename": "SC02_02_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23456,
+  "filename": "SC05_00_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23457,
+  "filename": "SC05_01_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23458,
+  "filename": "SC05_02_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23459,
+  "filename": "SC05_03_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23460,
+  "filename": "SC05_04_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23461,
+  "filename": "SC05_05_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23462,
+  "filename": "SC05_06_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23463,
+  "filename": "SC05_07_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23464,
+  "filename": "SC05_08_S_ITA.bin",
+  "patch": 4
+ },
+ {
+  "idx": 23467,
+  "filename": "SC05_11_S_ITA.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25384,
+  "filename": "LO00_02_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24085,
+  "filename": "TEXT_TALK_EV00_108.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24123,
+  "filename": "TEXT_TALK_EV01_003.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24183,
+  "filename": "TEXT_TALK_EV01_064.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24212,
+  "filename": "TEXT_TALK_EV01_093.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24228,
+  "filename": "TEXT_TALK_EV02_007.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24238,
+  "filename": "TEXT_TALK_EV02_017.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24242,
+  "filename": "TEXT_TALK_EV02_021.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24244,
+  "filename": "TEXT_TALK_EV02_023.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24286,
+  "filename": "TEXT_TALK_EV03_029.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24347,
+  "filename": "TEXT_TALK_SE00_007_20.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24484,
+  "filename": "TEXT_TALK_SE01_002_20.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24516,
+  "filename": "TEXT_TALK_SE01_013_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24521,
+  "filename": "TEXT_TALK_SE01_015_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24736,
+  "filename": "TEXT_TALK_SE01_085_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24743,
+  "filename": "TEXT_TALK_SE01_087_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24776,
+  "filename": "TEXT_TALK_SE01_099_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24809,
+  "filename": "TEXT_TALK_SE01_110_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24825,
+  "filename": "TEXT_TALK_SE01_116_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24828,
+  "filename": "TEXT_TALK_SE01_117_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24851,
+  "filename": "TEXT_TALK_SE01_125_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24880,
+  "filename": "TEXT_TALK_SE01_137_10.bin",
+  "patch": 3
+ },
+ {
+  "idx": 24899,
+  "filename": "TEXT_TALK_SE01_144_21.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24900,
+  "filename": "TEXT_TALK_SE01_145_00.bin",
+  "patch": 4
+ },
+ {
+  "idx": 24965,
+  "filename": "TEXT_TALK_SE01_165_10.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25084,
+  "filename": "SC00_08_V.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25131,
+  "filename": "SC03_17_V.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25259,
+  "filename": "SC05_00_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25260,
+  "filename": "SC05_01_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25261,
+  "filename": "SC05_02_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25262,
+  "filename": "SC05_03_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25263,
+  "filename": "SC05_04_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25264,
+  "filename": "SC05_05_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25265,
+  "filename": "SC05_06_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25266,
+  "filename": "SC05_07_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25267,
+  "filename": "SC05_08_S_KOR.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25270,
+  "filename": "SC05_11_S_KOR.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25385,
+  "filename": "LO00_03_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25394,
+  "filename": "LO00_12_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25413,
+  "filename": "LO04_05_VMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25414,
+  "filename": "LO04_06_VMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25489,
+  "filename": "LO00_03_AMes_str.bin",
+  "patch": 3
+ },
+ {
+  "idx": 25493,
+  "filename": "LO00_07_AMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 25517,
+  "filename": "LO04_05_AMes_str.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27014,
+  "filename": "SC02_02_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27062,
+  "filename": "SC05_00_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27063,
+  "filename": "SC05_01_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27064,
+  "filename": "SC05_02_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27065,
+  "filename": "SC05_03_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27066,
+  "filename": "SC05_04_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27067,
+  "filename": "SC05_05_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27068,
+  "filename": "SC05_06_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27069,
+  "filename": "SC05_07_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27070,
+  "filename": "SC05_08_S_TWN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 27073,
+  "filename": "SC05_11_S_TWN.bin",
+  "patch": 3
+ },
+ {
+  "idx": 28817,
+  "filename": "SC02_02_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28865,
+  "filename": "SC05_00_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28866,
+  "filename": "SC05_01_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28867,
+  "filename": "SC05_02_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28868,
+  "filename": "SC05_03_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28869,
+  "filename": "SC05_04_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28870,
+  "filename": "SC05_05_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28871,
+  "filename": "SC05_06_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28872,
+  "filename": "SC05_07_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28873,
+  "filename": "SC05_08_S_CHN.bin",
+  "patch": 4
+ },
+ {
+  "idx": 28876,
+  "filename": "SC05_11_S_CHN.bin",
+  "patch": 3
+ },
+ {
+  "idx": 29491,
+  "filename": "MV_N_011_FRA_E_VJ.bin",
+  "patch": 3
+ },
+ {
+  "idx": 29509,
+  "filename": "MV_N_011_FRA_E_VE.bin",
+  "patch": 3
+ },
+ {
+  "idx": 29527,
+  "filename": "MV_N_011_FRA_U_VJ.bin",
+  "patch": 3
+ },
+ {
+  "idx": 29545,
+  "filename": "MV_N_011_FRA_U_VE.bin",
+  "patch": 3
+ },
+ {
+  "idx": 30097,
+  "filename": "MV01_03_FRA_E_VJ.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30105,
+  "filename": "MV02_02_FRA_E_VJ.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30128,
+  "filename": "MV01_03_FRA_E_VE.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30136,
+  "filename": "MV02_02_FRA_E_VE.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30159,
+  "filename": "MV01_03_FRA_U_VJ.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30167,
+  "filename": "MV02_02_FRA_U_VJ.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30190,
+  "filename": "MV01_03_FRA_U_VE.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30198,
+  "filename": "MV02_02_FRA_U_VE.bin",
+  "patch": 1
+ },
+ {
+  "idx": 30798,
+  "filename": "title_cursor_move.arc",
+  "patch": 1
+ },
+ {
+  "idx": 30828,
+  "filename": "GlobalConfig.ktsl2gcbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 30946,
+  "filename": "AV_009_001.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31000,
+  "filename": "MOV_EN.ktsl2asbin.gz",
+  "patch": 3
+ },
+ {
+  "idx": 31001,
+  "filename": "EV_EN_ext.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31002,
+  "filename": "SE_EN_ext.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31004,
+  "filename": "LO_EN_ext.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31005,
+  "filename": "SC_EN_ext.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31006,
+  "filename": "SV_EN_ext.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31010,
+  "filename": "AV_000_000_EN.ktsl2asbin.gz",
+  "patch": 2
+ },
+ {
+  "idx": 31097,
+  "filename": "AV_000_001_EN.ktsl2asbin.gz",
+  "patch": 2
+ }
+]
